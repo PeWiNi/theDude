@@ -35,7 +35,7 @@ public class handMove : MonoBehaviour {
 		// Cache the horizontal input.
 		float h = Input.GetAxis("Horizontal");
 
-		Debug.Log("Button Input" + Input.GetButtonDown("joystick button 4"));
+		Debug.Log("Button Input" + Input.GetButtonDown("moveLeftArm"));
 			
 
 		// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
