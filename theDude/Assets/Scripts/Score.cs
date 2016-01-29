@@ -31,12 +31,12 @@ public class Score : MonoBehaviour
 			}
 			string username = KiiUser.CurrentUser.Username;
 			if(GameConfig.ENABLE_ANALYTICS)
-				guiText.text = "Score: " + score + "  Highscore: " + highscore + "\nUser: " + username + " Avg death: " + avgDeath.ToString("n2") + " s";
+				GetComponent<GUIText>().text = "Score: " + score + "  Highscore: " + highscore + "\nUser: " + username + " Avg death: " + avgDeath.ToString("n2") + " s";
 			else
-				guiText.text = "Score: " + score + "  Highscore: " + highscore + "\nUser: " + username;
+				GetComponent<GUIText>().text = "Score: " + score + "  Highscore: " + highscore + "\nUser: " + username;
 		}
 		else
-			guiText.text = "Score: " + score;
+			GetComponent<GUIText>().text = "Score: " + score;
 
 		// If the score has changed...
 		if(previousScore != score){
