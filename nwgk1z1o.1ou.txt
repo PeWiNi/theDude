@@ -1,0 +1,1767 @@
+﻿initial setup
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   theDude/Assets/Editor.meta
+#	new file:   theDude/Assets/Editor/CrossPlatformInput.meta
+#	new file:   theDude/Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+#	new file:   theDude/Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta
+#	new file:   theDude/Assets/Standard Assets.meta
+#	new file:   theDude/Assets/Standard Assets/2D.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyCrouch.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyCrouch.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyCrouchingWalk.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyCrouchingWalk.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyFalling.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyFalling.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyIdle.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyIdle.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump01.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump01.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump02.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump02.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump03.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump03.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump04.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump04.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump05.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump05.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump06.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump06.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump07.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump07.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump08.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump08.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump09.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump09.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump10.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump10.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump11.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyJump11.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyRun.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyRun.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyWalk.anim
+#	new file:   theDude/Assets/Standard Assets/2D/Animations/RobotBoyWalk.anim.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animator.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Animator/2dCharacterAnimator.controller
+#	new file:   theDude/Assets/Standard Assets/2D/Animator/2dCharacterAnimator.controller.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Materials.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Materials/SpriteLit.mat
+#	new file:   theDude/Assets/Standard Assets/2D/Materials/SpriteLit.mat.meta
+#	new file:   theDude/Assets/Standard Assets/2D/PhysicsMaterials.meta
+#	new file:   theDude/Assets/Standard Assets/2D/PhysicsMaterials/BouncyBox.physicsMaterial2D
+#	new file:   theDude/Assets/Standard Assets/2D/PhysicsMaterials/BouncyBox.physicsMaterial2D.meta
+#	new file:   theDude/Assets/Standard Assets/2D/PhysicsMaterials/Slippery.physicsMaterial2D
+#	new file:   theDude/Assets/Standard Assets/2D/PhysicsMaterials/Slippery.physicsMaterial2D.meta
+#	new file:   theDude/Assets/Standard Assets/2D/PhysicsMaterials/Sticky.physicsMaterial2D
+#	new file:   theDude/Assets/Standard Assets/2D/PhysicsMaterials/Sticky.physicsMaterial2D.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/CollisionSlider.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/CollisionSlider.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/CratePink.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/CratePink.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/ExtentsLeft.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/ExtentsLeft.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/ExtentsRight.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/ExtentsRight.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Killzone.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Killzone.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform04x01.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform04x01.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform08x01.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform08x01.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform12x01.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform12x01.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform16x01.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform16x01.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform36x01.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/Platform36x01.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/PlatformRamp.prefab
+#	new file:   theDude/Assets/Standard Assets/2D/Prefabs/PlatformRamp.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/CameraFollow.cs
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/CameraFollow.cs.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/Restarter.cs
+#	new file:   theDude/Assets/Standard Assets/2D/Scripts/Restarter.cs.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/BackgroundGreyGridSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/BackgroundGreyGridSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/BackgroundNavyGridSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/BackgroundNavyGridSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/PlatformWhiteSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/PlatformWhiteSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyCrouchSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyCrouchSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyDeathSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyDeathSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyIdleSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyIdleSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyRollSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyRollSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyRunSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyRunSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyWalkSprite.png
+#	new file:   theDude/Assets/Standard Assets/2D/Sprites/RobotBoyWalkSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/CameraGuidelines.txt
+#	new file:   theDude/Assets/Standard Assets/Cameras/CameraGuidelines.txt.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs/FreeLookCameraRig.prefab
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs/FreeLookCameraRig.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab
+#	new file:   theDude/Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/AutoCam.cs
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/AutoCam.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs
+#	new file:   theDude/Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Models.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Scripts.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Textures.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallAlbedo.png
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallAlbedo.png.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png
+#	new file:   theDude/Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Models.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png.meta
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt
+#	new file:   theDude/Assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+#	new file:   theDude/Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta
+#	new file:   theDude/Assets/Standard Assets/Environment.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/FacingLeaves_4.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/FacingLeaves_4.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Fronds_2.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Fronds_2.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Leaves_3.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Fronds_2.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Fronds_2.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Leaves_3.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/Billboard.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/Billboard.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/Billboard.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/Billboard.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Fronds_2.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Fronds_2.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Fronds_2.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Fronds_2.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Leaves_3.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Leaves_3.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Leaves_3.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Leaves_3.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Thumb_Conifer_Desktop.jpg
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Conifer/Thumb_Conifer_Desktop.jpg.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Spec.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/PalmFrond_Spec.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Fronds_2.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Fronds_2.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Fronds_2.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Thumb_Palm_Desktop.jpg
+#	new file:   theDude/Assets/Standard Assets/Environment/SpeedTree/Palm/Thumb_Palm_Desktop.jpg.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic).meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Models.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicNightime.prefab
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicNightime.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Scripts.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Shaders.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Textures.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg
+#	new file:   theDude/Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Models.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Shaders.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Materials.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Models.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Simple.prefab
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Simple.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Shaders.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Shaders/WaterInclude.cginc
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Shaders/WaterInclude.cginc.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Textures.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Textures/SimpleFoam.png
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Textures/SimpleFoam.png.meta
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Textures/SmallWaves.png
+#	new file:   theDude/Assets/Standard Assets/Environment/Water/Water4/Textures/SmallWaves.png.meta
+#	new file:   theDude/Assets/Standard Assets/Fonts.meta
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans.meta
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/License!.txt
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/License!.txt.meta
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf.meta
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf.meta
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf.meta
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+#	new file:   theDude/Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf.meta
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials.meta
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial.meta
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial.meta
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial.meta
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial.meta
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial.meta
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial.meta
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial
+#	new file:   theDude/Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial.meta
+#	new file:   theDude/Assets/Standard Assets/Utility.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/ActivateTrigger.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/ActivateTrigger.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/AutoMoveAndRotate.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/AutoMoveAndRotate.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/CameraRefocus.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/CameraRefocus.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/CurveControlledBob.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/CurveControlledBob.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/DragRigidbody.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/DragRigidbody.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/DynamicShadowSettings.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/DynamicShadowSettings.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/EventSystemChecker.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/EventSystemChecker.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/FOVKick.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/FOVKick.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/FPSCounter.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/FPSCounter.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/FollowTarget.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/FollowTarget.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/ForcedReset.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/ForcedReset.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/LerpControlledBob.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/LerpControlledBob.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/ObjectResetter.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/ObjectResetter.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/PlatformSpecificContent.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/PlatformSpecificContent.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/Prefabs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab
+#	new file:   theDude/Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/SimpleMouseRotator.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/SimpleMouseRotator.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/SmoothFollow.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/SmoothFollow.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/TimedObjectActivator.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/TimedObjectActivator.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/TimedObjectDestructor.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/TimedObjectDestructor.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/WaypointCircuit.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/WaypointCircuit.cs.meta
+#	new file:   theDude/Assets/Standard Assets/Utility/WaypointProgressTracker.cs
+#	new file:   theDude/Assets/Standard Assets/Utility/WaypointProgressTracker.cs.meta
+#	new file:   theDude/Library/AnnotationManager
+#	new file:   theDude/Library/AssetImportState
+#	new file:   theDude/Library/AssetServerCacheV3
+#	new file:   theDude/Library/BuildPlayer.prefs
+#	new file:   theDude/Library/BuildSettings.asset
+#	new file:   theDude/Library/CurrentLayout.dwlt
+#	new file:   theDude/Library/EditorUserBuildSettings.asset
+#	new file:   theDude/Library/EditorUserSettings.asset
+#	new file:   theDude/Library/InspectorExpandedItems.asset
+#	new file:   theDude/Library/LibraryFormatVersion.txt
+#	new file:   theDude/Library/MonoManager.asset
+#	new file:   theDude/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+#	new file:   theDude/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+#	new file:   theDude/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+#	new file:   theDude/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+#	new file:   theDude/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+#	new file:   theDude/Library/ScriptMapper
+#	new file:   theDude/Library/ShaderCache.db
+#	new file:   theDude/Library/ShaderCache/0/047b41e17a24ce034f5b51b6b25aa91e.bin
+#	new file:   theDude/Library/ShaderCache/0/06c97a43615e390208620b4362eb2643.bin
+#	new file:   theDude/Library/ShaderCache/0/0ae1d6c1044bc1ebe972575570aaa580.bin
+#	new file:   theDude/Library/ShaderCache/0/0c6bf29df786872595ab1deaf38672ef.bin
+#	new file:   theDude/Library/ShaderCache/1/10ed4e9629d5051d8f70a71500f71e86.bin
+#	new file:   theDude/Library/ShaderCache/1/15a20e820b6ffe8f14fe70fb83a8bb62.bin
+#	new file:   theDude/Library/ShaderCache/1/177c2cb21c32c7f0b45c50a37cdc6b5b.bin
+#	new file:   theDude/Library/ShaderCache/2/2266e2103b83f6c6ff0d3e285d7d7c94.bin
+#	new file:   theDude/Library/ShaderCache/2/256a824226f9f4840fd86323eaf12146.bin
+#	new file:   theDude/Library/ShaderCache/2/270c4948b846631806c8dc7a13c0b98d.bin
+#	new file:   theDude/Library/ShaderCache/3/31053b6b9d59a98078ac80de5d8b20da.bin
+#	new file:   theDude/Library/ShaderCache/3/358ca0f2feb0d7df94469e7f0f89ef4a.bin
+#	new file:   theDude/Library/ShaderCache/3/37d139d6b9cbbdde83e5f4b585ab5fa6.bin
+#	new file:   theDude/Library/ShaderCache/3/3b0de66c4f2d7ed0608f99de652312b2.bin
+#	new file:   theDude/Library/ShaderCache/3/3b3434c0a1ad5ef92fb99d12a1a99473.bin
+#	new file:   theDude/Library/ShaderCache/4/439d37418c0a83eae57f9f1315ac54ff.bin
+#	new file:   theDude/Library/ShaderCache/4/44aad0e3a210ccd9026b8d0333240134.bin
+#	new file:   theDude/Library/ShaderCache/4/483cdde4386e948d7fa0b93ef8244214.bin
+#	new file:   theDude/Library/ShaderCache/4/4e9b4838835f7639d2ab8df20dfbeda6.bin
+#	new file:   theDude/Library/ShaderCache/5/55e468495a72439cb8ad18e837901fa5.bin
+#	new file:   theDude/Library/ShaderCache/5/5755b2473291cee2e6d4ce2cb3bd689f.bin
+#	new file:   theDude/Library/ShaderCache/5/58d4192865fe73ce37acd73d940015bd.bin
+#	new file:   theDude/Library/ShaderCache/5/5e4e4a136719aa4c8d680d7cdfab5747.bin
+#	new file:   theDude/Library/ShaderCache/5/5f2e2e430fca40afe59011a219726342.bin
+#	new file:   theDude/Library/ShaderCache/6/64a6a694b418beed6c25133287507883.bin
+#	new file:   theDude/Library/ShaderCache/7/7063c5535040db7e6c2b4cfea706970d.bin
+#	new file:   theDude/Library/ShaderCache/7/71eff87268d2fb40883eefc503cc3ad5.bin
+#	new file:   theDude/Library/ShaderCache/7/77a1b75418eadab73abd3e8cc9da3955.bin
+#	new file:   theDude/Library/ShaderCache/7/789f51cc391eb6923a9daa6e780cf785.bin
+#	new file:   theDude/Library/ShaderCache/7/7b99b7b1cb23087b9153c9c59b375ef0.bin
+#	new file:   theDude/Library/ShaderCache/7/7d2cc3d2b16ce86f47aa86686cdcd63d.bin
+#	new file:   theDude/Library/ShaderCache/7/7e926a161b6795a2627260df928e00f3.bin
+#	new file:   theDude/Library/ShaderCache/8/898842916534ddf7c42280787bfd45d8.bin
+#	new file:   theDude/Library/ShaderCache/8/8a5125e84789885d22cbe8c5850c9869.bin
+#	new file:   theDude/Library/ShaderCache/8/8b9df360b3c916b528d46b9fb25405de.bin
+#	new file:   theDude/Library/ShaderCache/8/8dce925daa0c8b0dbde7076379f2e537.bin
+#	new file:   theDude/Library/ShaderCache/9/962404d8214573607935921ba10fabb6.bin
+#	new file:   theDude/Library/ShaderCache/9/974940dc3a4334ee120f9ff542937f66.bin
+#	new file:   theDude/Library/ShaderCache/9/98262d7f58faa09f86942b85211c6fae.bin
+#	new file:   theDude/Library/ShaderCache/9/9c2f79d36b31fe691c556d433fd242ce.bin
+#	new file:   theDude/Library/ShaderCache/9/9e39d90807351b41a24d55f788a37f38.bin
+#	new file:   theDude/Library/ShaderCache/9/9f2e1549ec97d9aafc8cda9d9566b13f.bin
+#	new file:   theDude/Library/ShaderCache/a/a2ee5c8d655f756579914c66c7941f3a.bin
+#	new file:   theDude/Library/ShaderCache/a/ac3d385328e43ac0b100c2c515ce7a79.bin
+#	new file:   theDude/Library/ShaderCache/b/b7075b8fcc49ea1d41e970f778e67db2.bin
+#	new file:   theDude/Library/ShaderCache/b/b8f13bda5dcf56b95a6cb123e8daf08a.bin
+#	new file:   theDude/Library/ShaderCache/c/c65805f564a2ba493400e4b690ed4363.bin
+#	new file:   theDude/Library/ShaderCache/c/c9b014169ea619938bf4c66af2f3f5f9.bin
+#	new file:   theDude/Library/ShaderCache/c/cb265071b970ec6c0f212b5fbc2f8819.bin
+#	new file:   theDude/Library/ShaderCache/c/cc62b54a046669389170ac9685021b75.bin
+#	new file:   theDude/Library/ShaderCache/d/d28138114874a014fba01bbd7646e0c7.bin
+#	new file:   theDude/Library/ShaderCache/d/d3cb19cdf6eca0b0df1a9c404791a094.bin
+#	new file:   theDude/Library/ShaderCache/d/d494c9990b3eb4930230e783fc19687a.bin
+#	new file:   theDude/Library/ShaderCache/d/dbae9a9fee836eeab56a2eda66dbb614.bin
+#	new file:   theDude/Library/ShaderCache/e/e34877efc34d9455036e61d01035ccd5.bin
+#	new file:   theDude/Library/ShaderCache/e/e72719ae85a346962e0a6cd8eb2d96b9.bin
+#	new file:   theDude/Library/ShaderCache/e/e9a4067a2884d352bfb9f185b512f803.bin
+#	new file:   theDude/Library/ShaderCache/e/ec4675d0d6a83caa44f32a43005fb1ca.bin
+#	new file:   theDude/Library/ShaderCache/e/ec5574b7f1ce41d78847d60cae5e8a54.bin
+#	new file:   theDude/Library/ShaderCache/f/f151c2e826bb4164bebdc654ebdcf987.bin
+#	new file:   theDude/Library/ShaderCache/f/f1d56106ed578f6b79fa6481563cbf60.bin
+#	new file:   theDude/Library/ShaderCache/f/f2028c1dc57a3df86c20965fb61e4c98.bin
+#	new file:   theDude/Library/ShaderCache/f/f3d72e0b8aaf671df70c317e7e0346df.bin
+#	new file:   theDude/Library/ShaderCache/f/f524bd3a6f2e24de0a8f2b74ccff37dc.bin
+#	new file:   theDude/Library/ShaderCache/f/f5acfb6292fbeea790db56b30132ea2f.bin
+#	new file:   theDude/Library/ShaderCache/f/f5f1f051e5a684a4b50531f47318085f.bin
+#	new file:   theDude/Library/ShaderCache/f/f6a73cdf0d4d475aae18d962af05f567.bin
+#	new file:   theDude/Library/ShaderCache/f/fe353a8acb58b96f0ba89b7b0dcdaa63.bin
+#	new file:   theDude/Library/assetDatabase3
+#	new file:   theDude/Library/metadata/00/00000000000000001000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000001000000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000002000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000002000000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000003000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000003000000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000004000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000004000000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000004100000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000004100000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000005000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000005000000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000005100000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000005100000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000006000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000006000000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000006100000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000006100000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000007000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000007000000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000007100000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000007100000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000008000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000008000000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000008100000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000008100000000000000.info
+#	new file:   theDude/Library/metadata/00/00000000000000009000000000000000
+#	new file:   theDude/Library/metadata/00/00000000000000009000000000000000.info
+#	new file:   theDude/Library/metadata/00/0000000000000000a000000000000000
+#	new file:   theDude/Library/metadata/00/0000000000000000a000000000000000.info
+#	new file:   theDude/Library/metadata/00/0000000000000000a100000000000000
+#	new file:   theDude/Library/metadata/00/0000000000000000a100000000000000.info
+#	new file:   theDude/Library/metadata/00/0000000000000000b000000000000000
+#	new file:   theDude/Library/metadata/00/0000000000000000b000000000000000.info
+#	new file:   theDude/Library/metadata/00/0000000000000000c000000000000000
+#	new file:   theDude/Library/metadata/00/0000000000000000c000000000000000.info
+#	new file:   theDude/Library/metadata/00/00c3c865782347f41b6358d9fba14b48
+#	new file:   theDude/Library/metadata/00/00c3c865782347f41b6358d9fba14b48.info
+#	new file:   theDude/Library/metadata/01/01571ba68fb2dad46aa03094ab219579
+#	new file:   theDude/Library/metadata/01/01571ba68fb2dad46aa03094ab219579.info
+#	new file:   theDude/Library/metadata/01/018119012bd4d014daf775b5c28fdc9b
+#	new file:   theDude/Library/metadata/01/018119012bd4d014daf775b5c28fdc9b.info
+#	new file:   theDude/Library/metadata/01/01cd679a1b9ee48bf9c546f6ce2cb97e
+#	new file:   theDude/Library/metadata/01/01cd679a1b9ee48bf9c546f6ce2cb97e.info
+#	new file:   theDude/Library/metadata/03/03a71764f1184704c9a74acb7490450e
+#	new file:   theDude/Library/metadata/03/03a71764f1184704c9a74acb7490450e.info
+#	new file:   theDude/Library/metadata/03/03bedf7094c479549beb9434f2033c2e
+#	new file:   theDude/Library/metadata/03/03bedf7094c479549beb9434f2033c2e.info
+#	new file:   theDude/Library/metadata/04/047330f39d11745ad0004adb8d76c639
+#	new file:   theDude/Library/metadata/04/047330f39d11745ad0004adb8d76c639.info
+#	new file:   theDude/Library/metadata/04/04a842e316b6f44bf8da702de26a8ed6
+#	new file:   theDude/Library/metadata/04/04a842e316b6f44bf8da702de26a8ed6.info
+#	new file:   theDude/Library/metadata/04/04c2ee985bb1a9849b5a6e8bee482aed
+#	new file:   theDude/Library/metadata/04/04c2ee985bb1a9849b5a6e8bee482aed.info
+#	new file:   theDude/Library/metadata/05/05ec5cf00ca181d45a42ba1870e148c3
+#	new file:   theDude/Library/metadata/05/05ec5cf00ca181d45a42ba1870e148c3.info
+#	new file:   theDude/Library/metadata/06/0626b924325d1c34cafa6b22297f4e4f
+#	new file:   theDude/Library/metadata/06/0626b924325d1c34cafa6b22297f4e4f.info
+#	new file:   theDude/Library/metadata/07/078bf204f06fcac44978d49dd094b43e
+#	new file:   theDude/Library/metadata/07/078bf204f06fcac44978d49dd094b43e.info
+#	new file:   theDude/Library/metadata/0a/0aa00c0212e047047aa5a1ce93b07f49
+#	new file:   theDude/Library/metadata/0a/0aa00c0212e047047aa5a1ce93b07f49.info
+#	new file:   theDude/Library/metadata/0b/0bfb2599080d5d24e84362b4ae314ae7
+#	new file:   theDude/Library/metadata/0b/0bfb2599080d5d24e84362b4ae314ae7.info
+#	new file:   theDude/Library/metadata/0c/0c6271a290ef75b4c97d58746c86c5b8
+#	new file:   theDude/Library/metadata/0c/0c6271a290ef75b4c97d58746c86c5b8.info
+#	new file:   theDude/Library/metadata/0c/0cb77231a430b454fb792ff7ffcc3943
+#	new file:   theDude/Library/metadata/0c/0cb77231a430b454fb792ff7ffcc3943.info
+#	new file:   theDude/Library/metadata/0c/0cdb788e79be7594e8cc8e1f742d23b7
+#	new file:   theDude/Library/metadata/0c/0cdb788e79be7594e8cc8e1f742d23b7.info
+#	new file:   theDude/Library/metadata/0c/0ce4cbc241d3aca4da0b94a0ffa0d51f
+#	new file:   theDude/Library/metadata/0c/0ce4cbc241d3aca4da0b94a0ffa0d51f.info
+#	new file:   theDude/Library/metadata/0d/0d2f50a8e0bb841a5aaa90ae55db8849
+#	new file:   theDude/Library/metadata/0d/0d2f50a8e0bb841a5aaa90ae55db8849.info
+#	new file:   theDude/Library/metadata/0d/0d9d26e2162aa4d11ab075b34c029673
+#	new file:   theDude/Library/metadata/0d/0d9d26e2162aa4d11ab075b34c029673.info
+#	new file:   theDude/Library/metadata/0d/0de3730b71e479c47995d4a98395073e
+#	new file:   theDude/Library/metadata/0d/0de3730b71e479c47995d4a98395073e.info
+#	new file:   theDude/Library/metadata/0e/0eb16b4b3e362ef4f97494dd0e686c46
+#	new file:   theDude/Library/metadata/0e/0eb16b4b3e362ef4f97494dd0e686c46.info
+#	new file:   theDude/Library/metadata/0e/0ec79c3d1dd0fb640b7f3f72ebb28f74
+#	new file:   theDude/Library/metadata/0e/0ec79c3d1dd0fb640b7f3f72ebb28f74.info
+#	new file:   theDude/Library/metadata/0f/0f57aeb1b8dce3342bea5c28ac17db24
+#	new file:   theDude/Library/metadata/0f/0f57aeb1b8dce3342bea5c28ac17db24.info
+#	new file:   theDude/Library/metadata/10/1062212255550964e974f3ffb3cbaae3
+#	new file:   theDude/Library/metadata/10/1062212255550964e974f3ffb3cbaae3.info
+#	new file:   theDude/Library/metadata/10/1092dd21af768cb499771bf88709dbbd
+#	new file:   theDude/Library/metadata/10/1092dd21af768cb499771bf88709dbbd.info
+#	new file:   theDude/Library/metadata/12/12ef7cbdfe0e143fa858a324456c8979
+#	new file:   theDude/Library/metadata/12/12ef7cbdfe0e143fa858a324456c8979.info
+#	new file:   theDude/Library/metadata/17/172f40c874b35fc42a66d568a70f9867
+#	new file:   theDude/Library/metadata/17/172f40c874b35fc42a66d568a70f9867.info
+#	new file:   theDude/Library/metadata/17/174090ae7f9eff84abe76f0ff062efac
+#	new file:   theDude/Library/metadata/17/174090ae7f9eff84abe76f0ff062efac.info
+#	new file:   theDude/Library/metadata/17/17e234879cb994b7f93d7437c10d23d6
+#	new file:   theDude/Library/metadata/17/17e234879cb994b7f93d7437c10d23d6.info
+#	new file:   theDude/Library/metadata/18/18214e9d6af6248559d501391856f1c7
+#	new file:   theDude/Library/metadata/18/18214e9d6af6248559d501391856f1c7.info
+#	new file:   theDude/Library/metadata/18/1829b8c50e4108f4b936e37f91181337
+#	new file:   theDude/Library/metadata/18/1829b8c50e4108f4b936e37f91181337.info
+#	new file:   theDude/Library/metadata/18/18fcd494ab71841d695135246693eb3a
+#	new file:   theDude/Library/metadata/18/18fcd494ab71841d695135246693eb3a.info
+#	new file:   theDude/Library/metadata/19/19bf9c5d4c01a864baffb3ac0dc54a9b
+#	new file:   theDude/Library/metadata/19/19bf9c5d4c01a864baffb3ac0dc54a9b.info
+#	new file:   theDude/Library/metadata/19/19d7ece9e3def3745a0f6e75d984fdf6
+#	new file:   theDude/Library/metadata/19/19d7ece9e3def3745a0f6e75d984fdf6.info
+#	new file:   theDude/Library/metadata/1c/1c4aa503092e12040ac412fec79b5d67
+#	new file:   theDude/Library/metadata/1c/1c4aa503092e12040ac412fec79b5d67.info
+#	new file:   theDude/Library/metadata/1c/1c52c953c83c2254a9fa72d50250f028
+#	new file:   theDude/Library/metadata/1c/1c52c953c83c2254a9fa72d50250f028.info
+#	new file:   theDude/Library/metadata/1c/1cac2e0bcc34e4b3cbb4bd85982eba83
+#	new file:   theDude/Library/metadata/1c/1cac2e0bcc34e4b3cbb4bd85982eba83.info
+#	new file:   theDude/Library/metadata/1c/1caf40fc8bebb6b43b2550c05ca791d6
+#	new file:   theDude/Library/metadata/1c/1caf40fc8bebb6b43b2550c05ca791d6.info
+#	new file:   theDude/Library/metadata/1c/1cb3f0c5c8637644dae1816a674f7e10
+#	new file:   theDude/Library/metadata/1c/1cb3f0c5c8637644dae1816a674f7e10.info
+#	new file:   theDude/Library/metadata/1c/1cb8ed3cbba15f0479fbae54e0a963df
+#	new file:   theDude/Library/metadata/1c/1cb8ed3cbba15f0479fbae54e0a963df.info
+#	new file:   theDude/Library/metadata/1d/1d0c184845252df44a655359de388cb8
+#	new file:   theDude/Library/metadata/1d/1d0c184845252df44a655359de388cb8.info
+#	new file:   theDude/Library/metadata/1d/1d8bb7944760b84429768013f749b102
+#	new file:   theDude/Library/metadata/1d/1d8bb7944760b84429768013f749b102.info
+#	new file:   theDude/Library/metadata/1f/1fbc4e410d66d804aaf31b4c25b16ffc
+#	new file:   theDude/Library/metadata/1f/1fbc4e410d66d804aaf31b4c25b16ffc.info
+#	new file:   theDude/Library/metadata/20/20c65bc5a7d28f54c9ca69569d77706d
+#	new file:   theDude/Library/metadata/20/20c65bc5a7d28f54c9ca69569d77706d.info
+#	new file:   theDude/Library/metadata/21/2169821f0567671499a5c10104c69c24
+#	new file:   theDude/Library/metadata/21/2169821f0567671499a5c10104c69c24.info
+#	new file:   theDude/Library/metadata/21/21b01056ea59b814f9ae15d8e6bb3aac
+#	new file:   theDude/Library/metadata/21/21b01056ea59b814f9ae15d8e6bb3aac.info
+#	new file:   theDude/Library/metadata/22/22bbf57ec543cee42a5aa0ec2dd9e457
+#	new file:   theDude/Library/metadata/22/22bbf57ec543cee42a5aa0ec2dd9e457.info
+#	new file:   theDude/Library/metadata/24/246cc59c7a84ea44f87f6b70acfe30c5
+#	new file:   theDude/Library/metadata/24/246cc59c7a84ea44f87f6b70acfe30c5.info
+#	new file:   theDude/Library/metadata/27/270e912dd613348b6bfc29d571ca66b5
+#	new file:   theDude/Library/metadata/27/270e912dd613348b6bfc29d571ca66b5.info
+#	new file:   theDude/Library/metadata/27/272ba847f100d4251bb8260575189042
+#	new file:   theDude/Library/metadata/27/272ba847f100d4251bb8260575189042.info
+#	new file:   theDude/Library/metadata/29/29014cd42b6d273408e0ceefd336c0b3
+#	new file:   theDude/Library/metadata/29/29014cd42b6d273408e0ceefd336c0b3.info
+#	new file:   theDude/Library/metadata/29/29486a9cd1773f44f80570b5bd896a1d
+#	new file:   theDude/Library/metadata/29/29486a9cd1773f44f80570b5bd896a1d.info
+#	new file:   theDude/Library/metadata/2a/2a71c12ae885e4f80b5144a4652bbeb4
+#	new file:   theDude/Library/metadata/2a/2a71c12ae885e4f80b5144a4652bbeb4.info
+#	new file:   theDude/Library/metadata/2a/2a91e8dd37cdd41efb4859b65aced7a2
+#	new file:   theDude/Library/metadata/2a/2a91e8dd37cdd41efb4859b65aced7a2.info
+#	new file:   theDude/Library/metadata/2b/2b46b029d8dc37049aebb484e79998ff
+#	new file:   theDude/Library/metadata/2b/2b46b029d8dc37049aebb484e79998ff.info
+#	new file:   theDude/Library/metadata/2b/2bcb00d145ec17e4cad096cedfd84138
+#	new file:   theDude/Library/metadata/2b/2bcb00d145ec17e4cad096cedfd84138.info
+#	new file:   theDude/Library/metadata/2c/2c0b1e62b5409f6468554bb2f297badc
+#	new file:   theDude/Library/metadata/2c/2c0b1e62b5409f6468554bb2f297badc.info
+#	new file:   theDude/Library/metadata/2c/2c116325e19b8a04d916864cc540ec2d
+#	new file:   theDude/Library/metadata/2c/2c116325e19b8a04d916864cc540ec2d.info
+#	new file:   theDude/Library/metadata/2c/2c1c27ec8c3b75a4c80a795adc9ca788
+#	new file:   theDude/Library/metadata/2c/2c1c27ec8c3b75a4c80a795adc9ca788.info
+#	new file:   theDude/Library/metadata/2c/2c528fec5d95e4ac28cf46399b887662
+#	new file:   theDude/Library/metadata/2c/2c528fec5d95e4ac28cf46399b887662.info
+#	new file:   theDude/Library/metadata/2c/2c538784885b34a5987ed9f6651d9ecd
+#	new file:   theDude/Library/metadata/2c/2c538784885b34a5987ed9f6651d9ecd.info
+#	new file:   theDude/Library/metadata/2d/2dac79461900e0f4c93561031c2e6902
+#	new file:   theDude/Library/metadata/2d/2dac79461900e0f4c93561031c2e6902.info
+#	new file:   theDude/Library/metadata/2d/2dc67c8fe799ae845add403087340bd1
+#	new file:   theDude/Library/metadata/2d/2dc67c8fe799ae845add403087340bd1.info
+#	new file:   theDude/Library/metadata/2d/2dd3788f8589b40bf82a92d76ffc5091
+#	new file:   theDude/Library/metadata/2d/2dd3788f8589b40bf82a92d76ffc5091.info
+#	new file:   theDude/Library/metadata/30/30586af2d47849140b2d533bb6f75eaa
+#	new file:   theDude/Library/metadata/30/30586af2d47849140b2d533bb6f75eaa.info
+#	new file:   theDude/Library/metadata/30/306f8f570579fb3448d141a63029ef94
+#	new file:   theDude/Library/metadata/30/306f8f570579fb3448d141a63029ef94.info
+#	new file:   theDude/Library/metadata/30/30abebfd9bf1c49d8a2d26e61e66bc15
+#	new file:   theDude/Library/metadata/30/30abebfd9bf1c49d8a2d26e61e66bc15.info
+#	new file:   theDude/Library/metadata/31/314f49b24dc9d5d40956a7b28c67b237
+#	new file:   theDude/Library/metadata/31/314f49b24dc9d5d40956a7b28c67b237.info
+#	new file:   theDude/Library/metadata/33/3369231b1ed7ad34e84d9240a571db81
+#	new file:   theDude/Library/metadata/33/3369231b1ed7ad34e84d9240a571db81.info
+#	new file:   theDude/Library/metadata/33/33850b67ffcaa4b6c9a7146e4be0b917
+#	new file:   theDude/Library/metadata/33/33850b67ffcaa4b6c9a7146e4be0b917.info
+#	new file:   theDude/Library/metadata/34/34d2758af9e0a2b4690fbcfcad0285d6
+#	new file:   theDude/Library/metadata/34/34d2758af9e0a2b4690fbcfcad0285d6.info
+#	new file:   theDude/Library/metadata/34/34e1452e07a0b40c295c5b10aa679465
+#	new file:   theDude/Library/metadata/34/34e1452e07a0b40c295c5b10aa679465.info
+#	new file:   theDude/Library/metadata/34/34f07406286974e4ca236867d8d58b51
+#	new file:   theDude/Library/metadata/34/34f07406286974e4ca236867d8d58b51.info
+#	new file:   theDude/Library/metadata/35/355b3169750599e4f957a9d54675c3fa
+#	new file:   theDude/Library/metadata/35/355b3169750599e4f957a9d54675c3fa.info
+#	new file:   theDude/Library/metadata/36/3626fe8e008014f6bbd19bb72937b311
+#	new file:   theDude/Library/metadata/36/3626fe8e008014f6bbd19bb72937b311.info
+#	new file:   theDude/Library/metadata/36/36dd0b22da8874ed38075789055ca664
+#	new file:   theDude/Library/metadata/36/36dd0b22da8874ed38075789055ca664.info
+#	new file:   theDude/Library/metadata/37/371fa5d370f67534696194100d17bfad
+#	new file:   theDude/Library/metadata/37/371fa5d370f67534696194100d17bfad.info
+#	new file:   theDude/Library/metadata/37/37e60a97f2c87ae41b6cdc1055d78cb9
+#	new file:   theDude/Library/metadata/37/37e60a97f2c87ae41b6cdc1055d78cb9.info
+#	new file:   theDude/Library/metadata/37/37fac21d1f093d344816942d1abce94e
+#	new file:   theDude/Library/metadata/37/37fac21d1f093d344816942d1abce94e.info
+#	new file:   theDude/Library/metadata/39/39baceec69bb1ee4fb4194d50e1a6d10
+#	new file:   theDude/Library/metadata/39/39baceec69bb1ee4fb4194d50e1a6d10.info
+#	new file:   theDude/Library/metadata/3a/3a7cedf246fca744f90cbdc9dbe41166
+#	new file:   theDude/Library/metadata/3a/3a7cedf246fca744f90cbdc9dbe41166.info
+#	new file:   theDude/Library/metadata/3a/3aeb7dadc0c69d54d9e5777e9d5631f1
+#	new file:   theDude/Library/metadata/3a/3aeb7dadc0c69d54d9e5777e9d5631f1.info
+#	new file:   theDude/Library/metadata/3b/3b09d59f4499d45428baa7a21e954296
+#	new file:   theDude/Library/metadata/3b/3b09d59f4499d45428baa7a21e954296.info
+#	new file:   theDude/Library/metadata/3b/3b09d59f4499d45428baa7a21e954296.resource
+#	new file:   theDude/Library/metadata/3b/3b5b7be0f2332c24f89a2af018daa62d
+#	new file:   theDude/Library/metadata/3b/3b5b7be0f2332c24f89a2af018daa62d.info
+#	new file:   theDude/Library/metadata/3b/3bf2bbbc8bf6c674dbdd7e7bed3467bd
+#	new file:   theDude/Library/metadata/3b/3bf2bbbc8bf6c674dbdd7e7bed3467bd.info
+#	new file:   theDude/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97
+#	new file:   theDude/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97.info
+#	new file:   theDude/Library/metadata/3c/3cc8ac37e0da341db819af6143a07b03
+#	new file:   theDude/Library/metadata/3c/3cc8ac37e0da341db819af6143a07b03.info
+#	new file:   theDude/Library/metadata/3d/3d8675433a508ec47b8f895201eacf20
+#	new file:   theDude/Library/metadata/3d/3d8675433a508ec47b8f895201eacf20.info
+#	new file:   theDude/Library/metadata/3d/3dc82647157f5fb4d9b4bade4825b42d
+#	new file:   theDude/Library/metadata/3d/3dc82647157f5fb4d9b4bade4825b42d.info
+#	new file:   theDude/Library/metadata/3e/3e27d9cfd3a59af4ebdf7444f6f57620
+#	new file:   theDude/Library/metadata/3e/3e27d9cfd3a59af4ebdf7444f6f57620.info
+#	new file:   theDude/Library/metadata/3e/3ee9c33ffee000840b0fed14ec400bc9
+#	new file:   theDude/Library/metadata/3e/3ee9c33ffee000840b0fed14ec400bc9.info
+#	new file:   theDude/Library/metadata/41/41232aac50fb25a40b390906295f9aa6
+#	new file:   theDude/Library/metadata/41/41232aac50fb25a40b390906295f9aa6.info
+#	new file:   theDude/Library/metadata/41/4185bc77c7194462ca3b1097ef4a5de0
+#	new file:   theDude/Library/metadata/41/4185bc77c7194462ca3b1097ef4a5de0.info
+#	new file:   theDude/Library/metadata/41/41b808ba7c2f15e47bef4912db87d7c5
+#	new file:   theDude/Library/metadata/41/41b808ba7c2f15e47bef4912db87d7c5.info
+#	new file:   theDude/Library/metadata/41/41db8cbfecdbdb54ab2bac971c05547a
+#	new file:   theDude/Library/metadata/41/41db8cbfecdbdb54ab2bac971c05547a.info
+#	new file:   theDude/Library/metadata/41/41e4f29e5dee9ec48a2538955ef1de71
+#	new file:   theDude/Library/metadata/41/41e4f29e5dee9ec48a2538955ef1de71.info
+#	new file:   theDude/Library/metadata/42/42e65e088b3f4374e851b8dbd38f3df9
+#	new file:   theDude/Library/metadata/42/42e65e088b3f4374e851b8dbd38f3df9.info
+#	new file:   theDude/Library/metadata/42/42e65e088b3f4374e851b8dbd38f3df9.resource
+#	new file:   theDude/Library/metadata/42/42e7f46d0e5a84171a3909479c1646ba
+#	new file:   theDude/Library/metadata/42/42e7f46d0e5a84171a3909479c1646ba.info
+#	new file:   theDude/Library/metadata/43/438c5036def53d643a5c720213903c0f
+#	new file:   theDude/Library/metadata/43/438c5036def53d643a5c720213903c0f.info
+#	new file:   theDude/Library/metadata/44/440eb36db91ca410f800ff3cfe43572f
+#	new file:   theDude/Library/metadata/44/440eb36db91ca410f800ff3cfe43572f.info
+#	new file:   theDude/Library/metadata/45/45cab4c9b31009748999eec1556926b3
+#	new file:   theDude/Library/metadata/45/45cab4c9b31009748999eec1556926b3.info
+#	new file:   theDude/Library/metadata/46/46160e8fc1456bc4d9fb3de64ba88c31
+#	new file:   theDude/Library/metadata/46/46160e8fc1456bc4d9fb3de64ba88c31.info
+#	new file:   theDude/Library/metadata/46/469edab27ab6d004d84af2c4a851bd7f
+#	new file:   theDude/Library/metadata/46/469edab27ab6d004d84af2c4a851bd7f.info
+#	new file:   theDude/Library/metadata/47/475c4a4e617a8401b84ca7b32c7cc460
+#	new file:   theDude/Library/metadata/47/475c4a4e617a8401b84ca7b32c7cc460.info
+#	new file:   theDude/Library/metadata/47/47d3e747b2e87de4c8358aaa436365ea
+#	new file:   theDude/Library/metadata/47/47d3e747b2e87de4c8358aaa436365ea.info
+#	new file:   theDude/Library/metadata/49/492f54f4accf00440828ffcb9e4fcc19
+#	new file:   theDude/Library/metadata/49/492f54f4accf00440828ffcb9e4fcc19.info
+#	new file:   theDude/Library/metadata/49/49a0e923d39ec3c4c8bb97699e2f2903
+#	new file:   theDude/Library/metadata/49/49a0e923d39ec3c4c8bb97699e2f2903.info
+#	new file:   theDude/Library/metadata/49/49b611e658efbf443b686a4036f74fe3
+#	new file:   theDude/Library/metadata/49/49b611e658efbf443b686a4036f74fe3.info
+#	new file:   theDude/Library/metadata/4b/4b42c70f54fe4f24d84cdc651f46c005
+#	new file:   theDude/Library/metadata/4b/4b42c70f54fe4f24d84cdc651f46c005.info
+#	new file:   theDude/Library/metadata/4b/4b5dce0492bdfb648a389fe390071625
+#	new file:   theDude/Library/metadata/4b/4b5dce0492bdfb648a389fe390071625.info
+#	new file:   theDude/Library/metadata/4b/4be5b19d42487c24f830c4ee36849a95
+#	new file:   theDude/Library/metadata/4b/4be5b19d42487c24f830c4ee36849a95.info
+#	new file:   theDude/Library/metadata/4c/4c4bc148459cd764dbb1d4e94e49299b
+#	new file:   theDude/Library/metadata/4c/4c4bc148459cd764dbb1d4e94e49299b.info
+#	new file:   theDude/Library/metadata/4d/4d6c994b9ad45b847bc67ec5f857fc78
+#	new file:   theDude/Library/metadata/4d/4d6c994b9ad45b847bc67ec5f857fc78.info
+#	new file:   theDude/Library/metadata/4d/4db017495c69e8140a56a0e2b669e3f8
+#	new file:   theDude/Library/metadata/4d/4db017495c69e8140a56a0e2b669e3f8.info
+#	new file:   theDude/Library/metadata/4e/4e2f32e9a1fefc24092337ae061f3dbc
+#	new file:   theDude/Library/metadata/4e/4e2f32e9a1fefc24092337ae061f3dbc.info
+#	new file:   theDude/Library/metadata/4f/4f65f58f1750429468db4bef75317815
+#	new file:   theDude/Library/metadata/4f/4f65f58f1750429468db4bef75317815.info
+#	new file:   theDude/Library/metadata/4f/4f9d71771b07cb6438e0d35b038b43a7
+#	new file:   theDude/Library/metadata/4f/4f9d71771b07cb6438e0d35b038b43a7.info
+#	new file:   theDude/Library/metadata/50/50d95e01ce44ff842949168ffec200cf
+#	new file:   theDude/Library/metadata/50/50d95e01ce44ff842949168ffec200cf.info
+#	new file:   theDude/Library/metadata/51/51dd2e4c869794f75a0df7d54b210214
+#	new file:   theDude/Library/metadata/51/51dd2e4c869794f75a0df7d54b210214.info
+#	new file:   theDude/Library/metadata/52/521b611700410be45810047f0a74e899
+#	new file:   theDude/Library/metadata/52/521b611700410be45810047f0a74e899.info
+#	new file:   theDude/Library/metadata/52/52b7d70b1de7c4ce09662b77c14d9fda
+#	new file:   theDude/Library/metadata/52/52b7d70b1de7c4ce09662b77c14d9fda.info
+#	new file:   theDude/Library/metadata/52/52baaeb214519f347a35cf0edfd262ff
+#	new file:   theDude/Library/metadata/52/52baaeb214519f347a35cf0edfd262ff.info
+#	new file:   theDude/Library/metadata/54/5485e2f56028a3c4cb54f5caa167377e
+#	new file:   theDude/Library/metadata/54/5485e2f56028a3c4cb54f5caa167377e.info
+#	new file:   theDude/Library/metadata/54/54eb5844754051b40a918a84c33b7c1a
+#	new file:   theDude/Library/metadata/54/54eb5844754051b40a918a84c33b7c1a.info
+#	new file:   theDude/Library/metadata/54/54ee8e39b634b6d45aae528b6b24e879
+#	new file:   theDude/Library/metadata/54/54ee8e39b634b6d45aae528b6b24e879.info
+#	new file:   theDude/Library/metadata/55/55e2334423fefa34fb4916f6780413d3
+#	new file:   theDude/Library/metadata/55/55e2334423fefa34fb4916f6780413d3.info
+#	new file:   theDude/Library/metadata/56/5697b782242bf5440bc04bba0c6ce7f0
+#	new file:   theDude/Library/metadata/56/5697b782242bf5440bc04bba0c6ce7f0.info
+#	new file:   theDude/Library/metadata/57/57225f817366f704fb9b710e3865030d
+#	new file:   theDude/Library/metadata/57/57225f817366f704fb9b710e3865030d.info
+#	new file:   theDude/Library/metadata/57/57977547c59abb546bbb1501e3c417db
+#	new file:   theDude/Library/metadata/57/57977547c59abb546bbb1501e3c417db.info
+#	new file:   theDude/Library/metadata/57/57df284b8a7c87b4894ac5f9c86e0be9
+#	new file:   theDude/Library/metadata/57/57df284b8a7c87b4894ac5f9c86e0be9.info
+#	new file:   theDude/Library/metadata/57/57f38812aafe77142bf0c4ec50ff9c3a
+#	new file:   theDude/Library/metadata/57/57f38812aafe77142bf0c4ec50ff9c3a.info
+#	new file:   theDude/Library/metadata/58/58650e15a2607e44daa0f150e0061d89
+#	new file:   theDude/Library/metadata/58/58650e15a2607e44daa0f150e0061d89.info
+#	new file:   theDude/Library/metadata/58/5897aeed9b676024fbb8c694b421a861
+#	new file:   theDude/Library/metadata/58/5897aeed9b676024fbb8c694b421a861.info
+#	new file:   theDude/Library/metadata/58/5897aeed9b676024fbb8c694b421a861.resource
+#	new file:   theDude/Library/metadata/58/58a059b07b093a745b47c2191525ddce
+#	new file:   theDude/Library/metadata/58/58a059b07b093a745b47c2191525ddce.info
+#	new file:   theDude/Library/metadata/58/58cb183e16853564e9ed457f8a296db1
+#	new file:   theDude/Library/metadata/58/58cb183e16853564e9ed457f8a296db1.info
+#	new file:   theDude/Library/metadata/5a/5a9383dda6cabc047b7a297602e93eb4
+#	new file:   theDude/Library/metadata/5a/5a9383dda6cabc047b7a297602e93eb4.info
+#	new file:   theDude/Library/metadata/5a/5a9383dda6cabc047b7a297602e93eb4.resource
+#	new file:   theDude/Library/metadata/5b/5b1a64ea234fb2343b8d0686c51280de
+#	new file:   theDude/Library/metadata/5b/5b1a64ea234fb2343b8d0686c51280de.info
+#	new file:   theDude/Library/metadata/5b/5b5c5575fd4c74abd9f7b30862fb76a3
+#	new file:   theDude/Library/metadata/5b/5b5c5575fd4c74abd9f7b30862fb76a3.info
+#	new file:   theDude/Library/metadata/5c/5c2d84226fbbaf94e9c1451f1c39b06a
+#	new file:   theDude/Library/metadata/5c/5c2d84226fbbaf94e9c1451f1c39b06a.info
+#	new file:   theDude/Library/metadata/5c/5c6bda52f548c164381f24c22067e446
+#	new file:   theDude/Library/metadata/5c/5c6bda52f548c164381f24c22067e446.info
+#	new file:   theDude/Library/metadata/5c/5ca387966638baf478f257729f7d9ffd
+#	new file:   theDude/Library/metadata/5c/5ca387966638baf478f257729f7d9ffd.info
+#	new file:   theDude/Library/metadata/5d/5d00b6fff05f79d41988633b3f93cf45
+#	new file:   theDude/Library/metadata/5d/5d00b6fff05f79d41988633b3f93cf45.info
+#	new file:   theDude/Library/metadata/5d/5d2a4cf4598e80f48a3b902218fb54d1
+#	new file:   theDude/Library/metadata/5d/5d2a4cf4598e80f48a3b902218fb54d1.info
+#	new file:   theDude/Library/metadata/5d/5d2f1a0944eff024ab396500807b91cd
+#	new file:   theDude/Library/metadata/5d/5d2f1a0944eff024ab396500807b91cd.info
+#	new file:   theDude/Library/metadata/5d/5d8238cc53530b64fbb7828c3d3bb591
+#	new file:   theDude/Library/metadata/5d/5d8238cc53530b64fbb7828c3d3bb591.info
+#	new file:   theDude/Library/metadata/5d/5d8caf2b5dcc5414c8d319d27f73828e
+#	new file:   theDude/Library/metadata/5d/5d8caf2b5dcc5414c8d319d27f73828e.info
+#	new file:   theDude/Library/metadata/5e/5e9e851c0e142814dac026a256ba2ac0
+#	new file:   theDude/Library/metadata/5e/5e9e851c0e142814dac026a256ba2ac0.info
+#	new file:   theDude/Library/metadata/5e/5eebb5849c50a2c4ea24ded96e6f3aac
+#	new file:   theDude/Library/metadata/5e/5eebb5849c50a2c4ea24ded96e6f3aac.info
+#	new file:   theDude/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+#	new file:   theDude/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+#	new file:   theDude/Library/metadata/5f/5f88bded061933e41a9ed57ae1d07946
+#	new file:   theDude/Library/metadata/5f/5f88bded061933e41a9ed57ae1d07946.info
+#	new file:   theDude/Library/metadata/5f/5fc43f0c4b413534ba12c51c0e5e5f6f
+#	new file:   theDude/Library/metadata/5f/5fc43f0c4b413534ba12c51c0e5e5f6f.info
+#	new file:   theDude/Library/metadata/60/6045a93fb05b9c74884821030da2c46c
+#	new file:   theDude/Library/metadata/60/6045a93fb05b9c74884821030da2c46c.info
+#	new file:   theDude/Library/metadata/60/604bd9e7358cf48c0969f5b515a8c51c
+#	new file:   theDude/Library/metadata/60/604bd9e7358cf48c0969f5b515a8c51c.info
+#	new file:   theDude/Library/metadata/61/612b65e0cd1576e4bbba0516d756a99d
+#	new file:   theDude/Library/metadata/61/612b65e0cd1576e4bbba0516d756a99d.info
+#	new file:   theDude/Library/metadata/62/621e901dcf5ebaf46bce29d18f67194c
+#	new file:   theDude/Library/metadata/62/621e901dcf5ebaf46bce29d18f67194c.info
+#	new file:   theDude/Library/metadata/63/6308da3d0ff986b42be3b0a6ea5b6fae
+#	new file:   theDude/Library/metadata/63/6308da3d0ff986b42be3b0a6ea5b6fae.info
+#	new file:   theDude/Library/metadata/63/639aa87a96d586c4e84838574ce20ca3
+#	new file:   theDude/Library/metadata/63/639aa87a96d586c4e84838574ce20ca3.info
+#	new file:   theDude/Library/metadata/64/643c971818f68d3439e84b5d8bdafe07
+#	new file:   theDude/Library/metadata/64/643c971818f68d3439e84b5d8bdafe07.info
+#	new file:   theDude/Library/metadata/65/654a2c1b911b36647b211a44a46e6d09
+#	new file:   theDude/Library/metadata/65/654a2c1b911b36647b211a44a46e6d09.info
+#	new file:   theDude/Library/metadata/65/656fde119942645aa8e062e04c119aa1
+#	new file:   theDude/Library/metadata/65/656fde119942645aa8e062e04c119aa1.info
+#	new file:   theDude/Library/metadata/67/674c23718320e9d498cdad2a5bcd576a
+#	new file:   theDude/Library/metadata/67/674c23718320e9d498cdad2a5bcd576a.info
+#	new file:   theDude/Library/metadata/68/681e41ee1260343b395ca58745c94870
+#	new file:   theDude/Library/metadata/68/681e41ee1260343b395ca58745c94870.info
+#	new file:   theDude/Library/metadata/69/69b69a5b0e0a85b4aa97a7edc40c37d1
+#	new file:   theDude/Library/metadata/69/69b69a5b0e0a85b4aa97a7edc40c37d1.info
+#	new file:   theDude/Library/metadata/6a/6aa58ee2f84094af2846e1a7bb0c23f9
+#	new file:   theDude/Library/metadata/6a/6aa58ee2f84094af2846e1a7bb0c23f9.info
+#	new file:   theDude/Library/metadata/6a/6aab193b7693b5e4c9741f1917d2987c
+#	new file:   theDude/Library/metadata/6a/6aab193b7693b5e4c9741f1917d2987c.info
+#	new file:   theDude/Library/metadata/6a/6ac1ce5a5adfd9f46adbf5b6f752a47c
+#	new file:   theDude/Library/metadata/6a/6ac1ce5a5adfd9f46adbf5b6f752a47c.info
+#	new file:   theDude/Library/metadata/6a/6af82a665aaf44c41874a383a4225c48
+#	new file:   theDude/Library/metadata/6a/6af82a665aaf44c41874a383a4225c48.info
+#	new file:   theDude/Library/metadata/6b/6b436d069d11415d1100ab9b44295342
+#	new file:   theDude/Library/metadata/6b/6b436d069d11415d1100ab9b44295342.info
+#	new file:   theDude/Library/metadata/6c/6c2afc8a038f69f4aa35c25dcd94fd55
+#	new file:   theDude/Library/metadata/6c/6c2afc8a038f69f4aa35c25dcd94fd55.info
+#	new file:   theDude/Library/metadata/6c/6c3b3265bf0f7e547a1ada8555f850a5
+#	new file:   theDude/Library/metadata/6c/6c3b3265bf0f7e547a1ada8555f850a5.info
+#	new file:   theDude/Library/metadata/6c/6ca8c4e270f964e0da9f731d7d34b123
+#	new file:   theDude/Library/metadata/6c/6ca8c4e270f964e0da9f731d7d34b123.info
+#	new file:   theDude/Library/metadata/6e/6e0c47d6f0bab234794fcdf9b91e10ca
+#	new file:   theDude/Library/metadata/6e/6e0c47d6f0bab234794fcdf9b91e10ca.info
+#	new file:   theDude/Library/metadata/6e/6e5212316bdb05c498d74aa4eedcca7b
+#	new file:   theDude/Library/metadata/6e/6e5212316bdb05c498d74aa4eedcca7b.info
+#	new file:   theDude/Library/metadata/6e/6e680dda9368db5418f19388474277a2
+#	new file:   theDude/Library/metadata/6e/6e680dda9368db5418f19388474277a2.info
+#	new file:   theDude/Library/metadata/6f/6fb3851da6a6f5948ab6892bee8ba920
+#	new file:   theDude/Library/metadata/6f/6fb3851da6a6f5948ab6892bee8ba920.info
+#	new file:   theDude/Library/metadata/6f/6fd099d339b4ae34692c8258e4f87531
+#	new file:   theDude/Library/metadata/6f/6fd099d339b4ae34692c8258e4f87531.info
+#	new file:   theDude/Library/metadata/70/706eadfad28bc4c1c9bb137b31052b14
+#	new file:   theDude/Library/metadata/70/706eadfad28bc4c1c9bb137b31052b14.info
+#	new file:   theDude/Library/metadata/70/7076a2a45ec52cc469dff98247300c0f
+#	new file:   theDude/Library/metadata/70/7076a2a45ec52cc469dff98247300c0f.info
+#	new file:   theDude/Library/metadata/70/70852dc981465ea48bb527b9e33a87fd
+#	new file:   theDude/Library/metadata/70/70852dc981465ea48bb527b9e33a87fd.info
+#	new file:   theDude/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7
+#	new file:   theDude/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7.info
+#	new file:   theDude/Library/metadata/73/7350b65a6431f604a8496c39db1ac9c5
+#	new file:   theDude/Library/metadata/73/7350b65a6431f604a8496c39db1ac9c5.info
+#	new file:   theDude/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+#	new file:   theDude/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+#	new file:   theDude/Library/metadata/73/73ab447d8034be44f8321c730cc6247a
+#	new file:   theDude/Library/metadata/73/73ab447d8034be44f8321c730cc6247a.info
+#	new file:   theDude/Library/metadata/75/753ea9ccf9eee6c42a0954ec8663b992
+#	new file:   theDude/Library/metadata/75/753ea9ccf9eee6c42a0954ec8663b992.info
+#	new file:   theDude/Library/metadata/76/76d1c0d83720ea445ba84ce7d478511a
+#	new file:   theDude/Library/metadata/76/76d1c0d83720ea445ba84ce7d478511a.info
+#	new file:   theDude/Library/metadata/77/7700d93a317c89246a647c7a6c3e7399
+#	new file:   theDude/Library/metadata/77/7700d93a317c89246a647c7a6c3e7399.info
+#	new file:   theDude/Library/metadata/77/7737647c22c1fc64a88d5cd030c352ce
+#	new file:   theDude/Library/metadata/77/7737647c22c1fc64a88d5cd030c352ce.info
+#	new file:   theDude/Library/metadata/78/780611a67e8e941a2b3aa96e5915a793
+#	new file:   theDude/Library/metadata/78/780611a67e8e941a2b3aa96e5915a793.info
+#	new file:   theDude/Library/metadata/7b/7bdd8cb386e0b554b84cb783663bb4fc
+#	new file:   theDude/Library/metadata/7b/7bdd8cb386e0b554b84cb783663bb4fc.info
+#	new file:   theDude/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e
+#	new file:   theDude/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e.info
+#	new file:   theDude/Library/metadata/7d/7d3269566d48b8447bb48d2259e28f8b
+#	new file:   theDude/Library/metadata/7d/7d3269566d48b8447bb48d2259e28f8b.info
+#	new file:   theDude/Library/metadata/7e/7e6f84bf81c8d4de280f1133cff7e601
+#	new file:   theDude/Library/metadata/7e/7e6f84bf81c8d4de280f1133cff7e601.info
+#	new file:   theDude/Library/metadata/7f/7f03a5a7175f67b4b8ce40a276f10474
+#	new file:   theDude/Library/metadata/7f/7f03a5a7175f67b4b8ce40a276f10474.info
+#	new file:   theDude/Library/metadata/80/803baf1ea73913f46b25e07d0a79df22
+#	new file:   theDude/Library/metadata/80/803baf1ea73913f46b25e07d0a79df22.info
+#	new file:   theDude/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+#	new file:   theDude/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+#	new file:   theDude/Library/metadata/81/81154777d5417884981849c5243f6c01
+#	new file:   theDude/Library/metadata/81/81154777d5417884981849c5243f6c01.info
+#	new file:   theDude/Library/metadata/81/81c9795a96c094f4cbde4d65546aa9b2
+#	new file:   theDude/Library/metadata/81/81c9795a96c094f4cbde4d65546aa9b2.info
+#	new file:   theDude/Library/metadata/82/8269a010592f549af8f11b1683d9e794
+#	new file:   theDude/Library/metadata/82/8269a010592f549af8f11b1683d9e794.info
+#	new file:   theDude/Library/metadata/82/827c9cd4a3943534f909ac6473e17288
+#	new file:   theDude/Library/metadata/82/827c9cd4a3943534f909ac6473e17288.info
+#	new file:   theDude/Library/metadata/83/83c81407209f85e4c87c0cda8b32868e
+#	new file:   theDude/Library/metadata/83/83c81407209f85e4c87c0cda8b32868e.info
+#	new file:   theDude/Library/metadata/84/8403d3349d112ba4d000be1be39e7c39
+#	new file:   theDude/Library/metadata/84/8403d3349d112ba4d000be1be39e7c39.info
+#	new file:   theDude/Library/metadata/84/843740dbe549a4a6ba9556d1b80001f5
+#	new file:   theDude/Library/metadata/84/843740dbe549a4a6ba9556d1b80001f5.info
+#	new file:   theDude/Library/metadata/84/84a557658689db048805ad4ed1a2d2dd
+#	new file:   theDude/Library/metadata/84/84a557658689db048805ad4ed1a2d2dd.info
+#	new file:   theDude/Library/metadata/85/851d11542d51c464e89acf6875599172
+#	new file:   theDude/Library/metadata/85/851d11542d51c464e89acf6875599172.info
+#	new file:   theDude/Library/metadata/85/852e56802eb941638acbb491814497b0
+#	new file:   theDude/Library/metadata/85/852e56802eb941638acbb491814497b0.info
+#	new file:   theDude/Library/metadata/85/855926cb3532dc14c87b1e6d589334b2
+#	new file:   theDude/Library/metadata/85/855926cb3532dc14c87b1e6d589334b2.info
+#	new file:   theDude/Library/metadata/85/8566902b50d5bfb4fb7f8b89f9cdbe8b
+#	new file:   theDude/Library/metadata/85/8566902b50d5bfb4fb7f8b89f9cdbe8b.info
+#	new file:   theDude/Library/metadata/85/85bf3be603548374ca46f521a3aa7fda
+#	new file:   theDude/Library/metadata/85/85bf3be603548374ca46f521a3aa7fda.info
+#	new file:   theDude/Library/metadata/86/86f4276d9602ff547968823666aa5699
+#	new file:   theDude/Library/metadata/86/86f4276d9602ff547968823666aa5699.info
+#	new file:   theDude/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+#	new file:   theDude/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+#	new file:   theDude/Library/metadata/87/87a2357765801c34292d6718d8b4d770
+#	new file:   theDude/Library/metadata/87/87a2357765801c34292d6718d8b4d770.info
+#	new file:   theDude/Library/metadata/87/87c316b602156405d92e616621658222
+#	new file:   theDude/Library/metadata/87/87c316b602156405d92e616621658222.info
+#	new file:   theDude/Library/metadata/87/87defe4543f47ef41b345453900fe949
+#	new file:   theDude/Library/metadata/87/87defe4543f47ef41b345453900fe949.info
+#	new file:   theDude/Library/metadata/89/8912f13e18e67bc478684ec30d73bc64
+#	new file:   theDude/Library/metadata/89/8912f13e18e67bc478684ec30d73bc64.info
+#	new file:   theDude/Library/metadata/89/897461e3c2fa9d84d8bd48bf1b00a950
+#	new file:   theDude/Library/metadata/89/897461e3c2fa9d84d8bd48bf1b00a950.info
+#	new file:   theDude/Library/metadata/89/89a534d869bfccd49bebf7cb6fb244b6
+#	new file:   theDude/Library/metadata/89/89a534d869bfccd49bebf7cb6fb244b6.info
+#	new file:   theDude/Library/metadata/89/89bc4a04979629642988a379a429608a
+#	new file:   theDude/Library/metadata/89/89bc4a04979629642988a379a429608a.info
+#	new file:   theDude/Library/metadata/8a/8aaff0751054e4a9cb4642d01eaf5be9
+#	new file:   theDude/Library/metadata/8a/8aaff0751054e4a9cb4642d01eaf5be9.info
+#	new file:   theDude/Library/metadata/8b/8bc94ec6ed537e743b481638bdcd503d
+#	new file:   theDude/Library/metadata/8b/8bc94ec6ed537e743b481638bdcd503d.info
+#	new file:   theDude/Library/metadata/8b/8bc94ec6ed537e743b481638bdcd503d.resource
+#	new file:   theDude/Library/metadata/8b/8be6341e1ce3f4cec9902bc34f72d20a
+#	new file:   theDude/Library/metadata/8b/8be6341e1ce3f4cec9902bc34f72d20a.info
+#	new file:   theDude/Library/metadata/8b/8bf4c98f906f8ae4badb962ba7e4aae5
+#	new file:   theDude/Library/metadata/8b/8bf4c98f906f8ae4badb962ba7e4aae5.info
+#	new file:   theDude/Library/metadata/8c/8c1755df5f552e843b9f8485f72e71f8
+#	new file:   theDude/Library/metadata/8c/8c1755df5f552e843b9f8485f72e71f8.info
+#	new file:   theDude/Library/metadata/8c/8c32f58513a41ef4dab9cb7704c5fb92
+#	new file:   theDude/Library/metadata/8c/8c32f58513a41ef4dab9cb7704c5fb92.info
+#	new file:   theDude/Library/metadata/8c/8c5335f0882fe4d478883cc8c58ce906
+#	new file:   theDude/Library/metadata/8c/8c5335f0882fe4d478883cc8c58ce906.info
+#	new file:   theDude/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44
+#	new file:   theDude/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44.info
+#	new file:   theDude/Library/metadata/8f/8fb26caddeedb41c9ae5c09a23c52942
+#	new file:   theDude/Library/metadata/8f/8fb26caddeedb41c9ae5c09a23c52942.info
+#	new file:   theDude/Library/metadata/8f/8fb98a6035269e64a998f9b56828fc4f
+#	new file:   theDude/Library/metadata/8f/8fb98a6035269e64a998f9b56828fc4f.info
+#	new file:   theDude/Library/metadata/94/943e057eaae705e43b9e9b2e53d6adb0
+#	new file:   theDude/Library/metadata/94/943e057eaae705e43b9e9b2e53d6adb0.info
+#	new file:   theDude/Library/metadata/94/9485b0c79d11e2e4d0007da98d76c639
+#	new file:   theDude/Library/metadata/94/9485b0c79d11e2e4d0007da98d76c639.info
+#	new file:   theDude/Library/metadata/94/94b04ec3bda6b7747aa53936ef3b0ae2
+#	new file:   theDude/Library/metadata/94/94b04ec3bda6b7747aa53936ef3b0ae2.info
+#	new file:   theDude/Library/metadata/95/951aab9a19f551f4385d0ceafdaf19b4
+#	new file:   theDude/Library/metadata/95/951aab9a19f551f4385d0ceafdaf19b4.info
+#	new file:   theDude/Library/metadata/95/951d74f7d57bed84cb623c62436bd064
+#	new file:   theDude/Library/metadata/95/951d74f7d57bed84cb623c62436bd064.info
+#	new file:   theDude/Library/metadata/95/9529ecc3d479da5499993355e6c2cb4f
+#	new file:   theDude/Library/metadata/95/9529ecc3d479da5499993355e6c2cb4f.info
+#	new file:   theDude/Library/metadata/96/9654cfdd87d7daf429b8931c28d7a93c
+#	new file:   theDude/Library/metadata/96/9654cfdd87d7daf429b8931c28d7a93c.info
+#	new file:   theDude/Library/metadata/97/9703d53e47195aa4190acd11369ccd1b
+#	new file:   theDude/Library/metadata/97/9703d53e47195aa4190acd11369ccd1b.info
+#	new file:   theDude/Library/metadata/97/97ad51f0a4aed0a4289f5462ce6dc18f
+#	new file:   theDude/Library/metadata/97/97ad51f0a4aed0a4289f5462ce6dc18f.info
+#	new file:   theDude/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+#	new file:   theDude/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+#	new file:   theDude/Library/metadata/98/9866a92691696b346901281f2b329034
+#	new file:   theDude/Library/metadata/98/9866a92691696b346901281f2b329034.info
+#	new file:   theDude/Library/metadata/98/98a0c4bded48f6e488eb93670599274e
+#	new file:   theDude/Library/metadata/98/98a0c4bded48f6e488eb93670599274e.info
+#	new file:   theDude/Library/metadata/98/98f48093c79e1de4aad538371abbe607
+#	new file:   theDude/Library/metadata/98/98f48093c79e1de4aad538371abbe607.info
+#	new file:   theDude/Library/metadata/99/9938463bcd729fe41b4937cb6d2d692b
+#	new file:   theDude/Library/metadata/99/9938463bcd729fe41b4937cb6d2d692b.info
+#	new file:   theDude/Library/metadata/99/9961032f4f02c4f41997c3ea399d2f22
+#	new file:   theDude/Library/metadata/99/9961032f4f02c4f41997c3ea399d2f22.info
+#	new file:   theDude/Library/metadata/99/999388b68bb99b44099461bfbed94358
+#	new file:   theDude/Library/metadata/99/999388b68bb99b44099461bfbed94358.info
+#	new file:   theDude/Library/metadata/9a/9ab98b66288df7b4fa182075f2f12bd6
+#	new file:   theDude/Library/metadata/9a/9ab98b66288df7b4fa182075f2f12bd6.info
+#	new file:   theDude/Library/metadata/9b/9b49c2e157c705944beb6767e25cd742
+#	new file:   theDude/Library/metadata/9b/9b49c2e157c705944beb6767e25cd742.info
+#	new file:   theDude/Library/metadata/9b/9b594b98c8a44404c9e8fd99515d0bed
+#	new file:   theDude/Library/metadata/9b/9b594b98c8a44404c9e8fd99515d0bed.info
+#	new file:   theDude/Library/metadata/9b/9b886447cba80f74e820adb3c9e70c76
+#	new file:   theDude/Library/metadata/9b/9b886447cba80f74e820adb3c9e70c76.info
+#	new file:   theDude/Library/metadata/9c/9c0578910bbe00d43919a92c7b9893fe
+#	new file:   theDude/Library/metadata/9c/9c0578910bbe00d43919a92c7b9893fe.info
+#	new file:   theDude/Library/metadata/9c/9c4978ff6447f9040b84acc89b0bbdc8
+#	new file:   theDude/Library/metadata/9c/9c4978ff6447f9040b84acc89b0bbdc8.info
+#	new file:   theDude/Library/metadata/9c/9cc6d6e9e3fe9154890a6f9caa77c955
+#	new file:   theDude/Library/metadata/9c/9cc6d6e9e3fe9154890a6f9caa77c955.info
+#	new file:   theDude/Library/metadata/9d/9d7c6e4896067aa4fa512a00f692ac1c
+#	new file:   theDude/Library/metadata/9d/9d7c6e4896067aa4fa512a00f692ac1c.info
+#	new file:   theDude/Library/metadata/9d/9dccc8e8f0da4494991c26ef59019551
+#	new file:   theDude/Library/metadata/9d/9dccc8e8f0da4494991c26ef59019551.info
+#	new file:   theDude/Library/metadata/9e/9e1a2edf6149977479db158e4fbf9671
+#	new file:   theDude/Library/metadata/9e/9e1a2edf6149977479db158e4fbf9671.info
+#	new file:   theDude/Library/metadata/9f/9f93f63d068b08c459038c40fce897d8
+#	new file:   theDude/Library/metadata/9f/9f93f63d068b08c459038c40fce897d8.info
+#	new file:   theDude/Library/metadata/a0/a0245c71eb710114392b7dcfe5484e1b
+#	new file:   theDude/Library/metadata/a0/a0245c71eb710114392b7dcfe5484e1b.info
+#	new file:   theDude/Library/metadata/a0/a038b284634e29f4aaf058814aa61a6f
+#	new file:   theDude/Library/metadata/a0/a038b284634e29f4aaf058814aa61a6f.info
+#	new file:   theDude/Library/metadata/a0/a0a4a426eaf7ddf4c84092e3687f0025
+#	new file:   theDude/Library/metadata/a0/a0a4a426eaf7ddf4c84092e3687f0025.info
+#	new file:   theDude/Library/metadata/a1/a1347817507220a4384f3ff6f7c24546
+#	new file:   theDude/Library/metadata/a1/a1347817507220a4384f3ff6f7c24546.info
+#	new file:   theDude/Library/metadata/a1/a1da353243062479a9b31c85074a796b
+#	new file:   theDude/Library/metadata/a1/a1da353243062479a9b31c85074a796b.info
+#	new file:   theDude/Library/metadata/a3/a3983c59ebf804b4abba687bd7c9e92f
+#	new file:   theDude/Library/metadata/a3/a3983c59ebf804b4abba687bd7c9e92f.info
+#	new file:   theDude/Library/metadata/a3/a3b997593a4f12c4c991490593f3b513
+#	new file:   theDude/Library/metadata/a3/a3b997593a4f12c4c991490593f3b513.info
+#	new file:   theDude/Library/metadata/a3/a3d3ef1a5bbfb4e0a910fbbe5830b1f9
+#	new file:   theDude/Library/metadata/a3/a3d3ef1a5bbfb4e0a910fbbe5830b1f9.info
+#	new file:   theDude/Library/metadata/a4/a437a9b380909fa4d98f929428f70388
+#	new file:   theDude/Library/metadata/a4/a437a9b380909fa4d98f929428f70388.info
+#	new file:   theDude/Library/metadata/a5/a53cf5449d11a15d1100a04b44295342
+#	new file:   theDude/Library/metadata/a5/a53cf5449d11a15d1100a04b44295342.info
+#	new file:   theDude/Library/metadata/a5/a5be31db3f71b0642af74fe491b4bc89
+#	new file:   theDude/Library/metadata/a5/a5be31db3f71b0642af74fe491b4bc89.info
+#	new file:   theDude/Library/metadata/a5/a5f2339f242f6cc41a982ec55ea3c201
+#	new file:   theDude/Library/metadata/a5/a5f2339f242f6cc41a982ec55ea3c201.info
+#	new file:   theDude/Library/metadata/a6/a62942d9af3f36d448094c6ed1f214dd
+#	new file:   theDude/Library/metadata/a6/a62942d9af3f36d448094c6ed1f214dd.info
+#	new file:   theDude/Library/metadata/a6/a6b21b8c372827345a11bae2fb736e36
+#	new file:   theDude/Library/metadata/a6/a6b21b8c372827345a11bae2fb736e36.info
+#	new file:   theDude/Library/metadata/a6/a6e42589b1029ec4d962f422f92e554a
+#	new file:   theDude/Library/metadata/a6/a6e42589b1029ec4d962f422f92e554a.info
+#	new file:   theDude/Library/metadata/a7/a771af3b1958445078af5fe2e9ec726c
+#	new file:   theDude/Library/metadata/a7/a771af3b1958445078af5fe2e9ec726c.info
+#	new file:   theDude/Library/metadata/a8/a8360d6cbb0b24d30ad943985708a039
+#	new file:   theDude/Library/metadata/a8/a8360d6cbb0b24d30ad943985708a039.info
+#	new file:   theDude/Library/metadata/a8/a869b219648fd6c47a3c134f3520ccff
+#	new file:   theDude/Library/metadata/a8/a869b219648fd6c47a3c134f3520ccff.info
+#	new file:   theDude/Library/metadata/a8/a8d3968294210ba4a9d2bb96dfa74a16
+#	new file:   theDude/Library/metadata/a8/a8d3968294210ba4a9d2bb96dfa74a16.info
+#	new file:   theDude/Library/metadata/a9/a940b48d553d9c74f9ca0a3b4cf74336
+#	new file:   theDude/Library/metadata/a9/a940b48d553d9c74f9ca0a3b4cf74336.info
+#	new file:   theDude/Library/metadata/a9/a94c9a7eb94ceec4a8d67a1890e22e51
+#	new file:   theDude/Library/metadata/a9/a94c9a7eb94ceec4a8d67a1890e22e51.info
+#	new file:   theDude/Library/metadata/a9/a9c35d1eec67849419bd87d162ba90a7
+#	new file:   theDude/Library/metadata/a9/a9c35d1eec67849419bd87d162ba90a7.info
+#	new file:   theDude/Library/metadata/a9/a9dfad760b6e9455593192a6d869f7ed
+#	new file:   theDude/Library/metadata/a9/a9dfad760b6e9455593192a6d869f7ed.info
+#	new file:   theDude/Library/metadata/ab/ab89d7e9dbd9462458ecef029ee60f6e
+#	new file:   theDude/Library/metadata/ab/ab89d7e9dbd9462458ecef029ee60f6e.info
+#	new file:   theDude/Library/metadata/ab/ab97f9ab7c2ce724ebc9446060a819a4
+#	new file:   theDude/Library/metadata/ab/ab97f9ab7c2ce724ebc9446060a819a4.info
+#	new file:   theDude/Library/metadata/ac/ac85670a1b2274f22905d6a43940371a
+#	new file:   theDude/Library/metadata/ac/ac85670a1b2274f22905d6a43940371a.info
+#	new file:   theDude/Library/metadata/ac/acf5e119c54034bd8bfbd5f21cc246db
+#	new file:   theDude/Library/metadata/ac/acf5e119c54034bd8bfbd5f21cc246db.info
+#	new file:   theDude/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+#	new file:   theDude/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f.info
+#	new file:   theDude/Library/metadata/ae/aef224e1951a8274684081643c7fa672
+#	new file:   theDude/Library/metadata/ae/aef224e1951a8274684081643c7fa672.info
+#	new file:   theDude/Library/metadata/af/af82a5dcdad0f544c99fd1a84212021d
+#	new file:   theDude/Library/metadata/af/af82a5dcdad0f544c99fd1a84212021d.info
+#	new file:   theDude/Library/metadata/b0/b063a9f2b9f645b40948a32b447c738f
+#	new file:   theDude/Library/metadata/b0/b063a9f2b9f645b40948a32b447c738f.info
+#	new file:   theDude/Library/metadata/b0/b0d5705176a0d36419d034e2ea46491a
+#	new file:   theDude/Library/metadata/b0/b0d5705176a0d36419d034e2ea46491a.info
+#	new file:   theDude/Library/metadata/b1/b1a5e04ae51004842aba06704a6c2903
+#	new file:   theDude/Library/metadata/b1/b1a5e04ae51004842aba06704a6c2903.info
+#	new file:   theDude/Library/metadata/b2/b235179bd2a63d1468dd430670338c55
+#	new file:   theDude/Library/metadata/b2/b235179bd2a63d1468dd430670338c55.info
+#	new file:   theDude/Library/metadata/b2/b241b59d6a89aff4fbf0bce77e644761
+#	new file:   theDude/Library/metadata/b2/b241b59d6a89aff4fbf0bce77e644761.info
+#	new file:   theDude/Library/metadata/b2/b27507c5d0efbbd47ac8c1de9a1a0a35
+#	new file:   theDude/Library/metadata/b2/b27507c5d0efbbd47ac8c1de9a1a0a35.info
+#	new file:   theDude/Library/metadata/b4/b43a4ef15621158419a2b639f7a98245
+#	new file:   theDude/Library/metadata/b4/b43a4ef15621158419a2b639f7a98245.info
+#	new file:   theDude/Library/metadata/b5/b51a3e520f9164da198dc59c8acfccd6
+#	new file:   theDude/Library/metadata/b5/b51a3e520f9164da198dc59c8acfccd6.info
+#	new file:   theDude/Library/metadata/b5/b544816461f324e56a39767fdeb5b114
+#	new file:   theDude/Library/metadata/b5/b544816461f324e56a39767fdeb5b114.info
+#	new file:   theDude/Library/metadata/b5/b552931caa1b3ea418b9ba90cbd1333e
+#	new file:   theDude/Library/metadata/b5/b552931caa1b3ea418b9ba90cbd1333e.info
+#	new file:   theDude/Library/metadata/b5/b5b8c0f9acc2944f086c02cb83f4ae76
+#	new file:   theDude/Library/metadata/b5/b5b8c0f9acc2944f086c02cb83f4ae76.info
+#	new file:   theDude/Library/metadata/b6/b656cca21e797074a84563027a508ce1
+#	new file:   theDude/Library/metadata/b6/b656cca21e797074a84563027a508ce1.info
+#	new file:   theDude/Library/metadata/b6/b6fac374594252145b045395449bc9b2
+#	new file:   theDude/Library/metadata/b6/b6fac374594252145b045395449bc9b2.info
+#	new file:   theDude/Library/metadata/b7/b725b62cfc9d04e4886735ab2a8107d1
+#	new file:   theDude/Library/metadata/b7/b725b62cfc9d04e4886735ab2a8107d1.info
+#	new file:   theDude/Library/metadata/b8/b87734d3c84dd1c43bd931282e470145
+#	new file:   theDude/Library/metadata/b8/b87734d3c84dd1c43bd931282e470145.info
+#	new file:   theDude/Library/metadata/ba/ba4eef1c1bb56b444b143beb8d3e30d5
+#	new file:   theDude/Library/metadata/ba/ba4eef1c1bb56b444b143beb8d3e30d5.info
+#	new file:   theDude/Library/metadata/ba/ba6a41dc489914734857bb5924eb70ad
+#	new file:   theDude/Library/metadata/ba/ba6a41dc489914734857bb5924eb70ad.info
+#	new file:   theDude/Library/metadata/ba/ba92fb44336020f40bdf294bb66bc9da
+#	new file:   theDude/Library/metadata/ba/ba92fb44336020f40bdf294bb66bc9da.info
+#	new file:   theDude/Library/metadata/ba/baec086904791744185aaa07a6cf55c2
+#	new file:   theDude/Library/metadata/ba/baec086904791744185aaa07a6cf55c2.info
+#	new file:   theDude/Library/metadata/bb/bb141fc9a700c9c4ca7e6dadb8acf24b
+#	new file:   theDude/Library/metadata/bb/bb141fc9a700c9c4ca7e6dadb8acf24b.info
+#	new file:   theDude/Library/metadata/bc/bc6e7e1374ff3e1459f65bf72da64c85
+#	new file:   theDude/Library/metadata/bc/bc6e7e1374ff3e1459f65bf72da64c85.info
+#	new file:   theDude/Library/metadata/bc/bc9b000e9b8028247bd816e159382646
+#	new file:   theDude/Library/metadata/bc/bc9b000e9b8028247bd816e159382646.info
+#	new file:   theDude/Library/metadata/bc/bcae914220acd4907840a029bb9d9aec
+#	new file:   theDude/Library/metadata/bc/bcae914220acd4907840a029bb9d9aec.info
+#	new file:   theDude/Library/metadata/be/be053ea3235ccb64a889bf0b15c2764b
+#	new file:   theDude/Library/metadata/be/be053ea3235ccb64a889bf0b15c2764b.info
+#	new file:   theDude/Library/metadata/bf/bf4c945c1f5a9b74bb15ab0c7f238617
+#	new file:   theDude/Library/metadata/bf/bf4c945c1f5a9b74bb15ab0c7f238617.info
+#	new file:   theDude/Library/metadata/bf/bf8162ab40cfad34cac743bdc2939f99
+#	new file:   theDude/Library/metadata/bf/bf8162ab40cfad34cac743bdc2939f99.info
+#	new file:   theDude/Library/metadata/bf/bfc1dabf45016eb46b99df1a78054924
+#	new file:   theDude/Library/metadata/bf/bfc1dabf45016eb46b99df1a78054924.info
+#	new file:   theDude/Library/metadata/bf/bfd675cc0db1d4656b75dc6d6ba91142
+#	new file:   theDude/Library/metadata/bf/bfd675cc0db1d4656b75dc6d6ba91142.info
+#	new file:   theDude/Library/metadata/bf/bffb643e1be1ea84387be9145bc4e150
+#	new file:   theDude/Library/metadata/bf/bffb643e1be1ea84387be9145bc4e150.info
+#	new file:   theDude/Library/metadata/c0/c04a867c41990cb44b46672730a8e63f
+#	new file:   theDude/Library/metadata/c0/c04a867c41990cb44b46672730a8e63f.info
+#	new file:   theDude/Library/metadata/c0/c0a32aa5206b400428f52a44b234c97f
+#	new file:   theDude/Library/metadata/c0/c0a32aa5206b400428f52a44b234c97f.info
+#	new file:   theDude/Library/metadata/c1/c1bbfafbde15c854681023b9e01e12dd
+#	new file:   theDude/Library/metadata/c1/c1bbfafbde15c854681023b9e01e12dd.info
+#	new file:   theDude/Library/metadata/c2/c22094bc116524b2a95c9aae09278b22
+#	new file:   theDude/Library/metadata/c2/c22094bc116524b2a95c9aae09278b22.info
+#	new file:   theDude/Library/metadata/c2/c2815a7ab32e42c4bb42f59caacb8ec1
+#	new file:   theDude/Library/metadata/c2/c2815a7ab32e42c4bb42f59caacb8ec1.info
+#	new file:   theDude/Library/metadata/c3/c3d7b34a3bb2d4e4b926e7e729d3d410
+#	new file:   theDude/Library/metadata/c3/c3d7b34a3bb2d4e4b926e7e729d3d410.info
+#	new file:   theDude/Library/metadata/c4/c487fc8e98a2a42488a6c0a36ccaec27
+#	new file:   theDude/Library/metadata/c4/c487fc8e98a2a42488a6c0a36ccaec27.info
+#	new file:   theDude/Library/metadata/c4/c4a7fc95fd5ac3942b8e85ec6c60a1fa
+#	new file:   theDude/Library/metadata/c4/c4a7fc95fd5ac3942b8e85ec6c60a1fa.info
+#	new file:   theDude/Library/metadata/c5/c55afdc4a8a3b4890b07cc7d176510bb
+#	new file:   theDude/Library/metadata/c5/c55afdc4a8a3b4890b07cc7d176510bb.info
+#	new file:   theDude/Library/metadata/c5/c5944ac50c6dc9442844cef438bb36fe
+#	new file:   theDude/Library/metadata/c5/c5944ac50c6dc9442844cef438bb36fe.info
+#	new file:   theDude/Library/metadata/c5/c5cb22d331ef7d64796f917c6a455a32
+#	new file:   theDude/Library/metadata/c5/c5cb22d331ef7d64796f917c6a455a32.info
+#	new file:   theDude/Library/metadata/c6/c62b7d87755b447919138e67f8e22e0c
+#	new file:   theDude/Library/metadata/c6/c62b7d87755b447919138e67f8e22e0c.info
+#	new file:   theDude/Library/metadata/c6/c6453f8e1f814744d8b94e5a6d1f9942
+#	new file:   theDude/Library/metadata/c6/c6453f8e1f814744d8b94e5a6d1f9942.info
+#	new file:   theDude/Library/metadata/c6/c688b8230f338954e977969bd4457584
+#	new file:   theDude/Library/metadata/c6/c688b8230f338954e977969bd4457584.info
+#	new file:   theDude/Library/metadata/c6/c6e0767b1f8c34890ac245217f4b9731
+#	new file:   theDude/Library/metadata/c6/c6e0767b1f8c34890ac245217f4b9731.info
+#	new file:   theDude/Library/metadata/c8/c8634e062924929664361c08745211fb
+#	new file:   theDude/Library/metadata/c8/c8634e062924929664361c08745211fb.info
+#	new file:   theDude/Library/metadata/c8/c8e96a067d1ef4982b454cf5a686f648
+#	new file:   theDude/Library/metadata/c8/c8e96a067d1ef4982b454cf5a686f648.info
+#	new file:   theDude/Library/metadata/c9/c91c1eb85782d5748ace27eb4d7415bb
+#	new file:   theDude/Library/metadata/c9/c91c1eb85782d5748ace27eb4d7415bb.info
+#	new file:   theDude/Library/metadata/c9/c9de3ae2361df6c469caeb2024321cbf
+#	new file:   theDude/Library/metadata/c9/c9de3ae2361df6c469caeb2024321cbf.info
+#	new file:   theDude/Library/metadata/ca/cadd54e4832aeef4b9359f44cbe335cd
+#	new file:   theDude/Library/metadata/ca/cadd54e4832aeef4b9359f44cbe335cd.info
+#	new file:   theDude/Library/metadata/cb/cba4562cece794697b418ce8e7c04b3c
+#	new file:   theDude/Library/metadata/cb/cba4562cece794697b418ce8e7c04b3c.info
+#	new file:   theDude/Library/metadata/cb/cbbabe9e292f5604897926494bb38fef
+#	new file:   theDude/Library/metadata/cb/cbbabe9e292f5604897926494bb38fef.info
+#	new file:   theDude/Library/metadata/cd/cd764ab8662bea6468202df8741bcfd3
+#	new file:   theDude/Library/metadata/cd/cd764ab8662bea6468202df8741bcfd3.info
+#	new file:   theDude/Library/metadata/ce/ce7a80d520cacc042b5fe14f373d8173
+#	new file:   theDude/Library/metadata/ce/ce7a80d520cacc042b5fe14f373d8173.info
+#	new file:   theDude/Library/metadata/ce/ce8d79c79d11b8f9d00076e98d76c639
+#	new file:   theDude/Library/metadata/ce/ce8d79c79d11b8f9d00076e98d76c639.info
+#	new file:   theDude/Library/metadata/cf/cf1acff8cf98a440dba907e79fd30ebc
+#	new file:   theDude/Library/metadata/cf/cf1acff8cf98a440dba907e79fd30ebc.info
+#	new file:   theDude/Library/metadata/d0/d024aaa09f4080d448d16f62d1a97b0b
+#	new file:   theDude/Library/metadata/d0/d024aaa09f4080d448d16f62d1a97b0b.info
+#	new file:   theDude/Library/metadata/d0/d027af1092f6b434090f040565e7e656
+#	new file:   theDude/Library/metadata/d0/d027af1092f6b434090f040565e7e656.info
+#	new file:   theDude/Library/metadata/d0/d02ca93506797924583a2ce43e5efdc0
+#	new file:   theDude/Library/metadata/d0/d02ca93506797924583a2ce43e5efdc0.info
+#	new file:   theDude/Library/metadata/d0/d05d496cb4f43c14e80630addd23652e
+#	new file:   theDude/Library/metadata/d0/d05d496cb4f43c14e80630addd23652e.info
+#	new file:   theDude/Library/metadata/d0/d08f91df3bd212f429df17f53ce2f364
+#	new file:   theDude/Library/metadata/d0/d08f91df3bd212f429df17f53ce2f364.info
+#	new file:   theDude/Library/metadata/d1/d139426e5e4404f31a1a8d663355003e
+#	new file:   theDude/Library/metadata/d1/d139426e5e4404f31a1a8d663355003e.info
+#	new file:   theDude/Library/metadata/d1/d1e2e7a54dcc8694ab1eca46d072f264
+#	new file:   theDude/Library/metadata/d1/d1e2e7a54dcc8694ab1eca46d072f264.info
+#	new file:   theDude/Library/metadata/d2/d20e5329bb2905844a1ae38b80640d3f
+#	new file:   theDude/Library/metadata/d2/d20e5329bb2905844a1ae38b80640d3f.info
+#	new file:   theDude/Library/metadata/d2/d25c4f81e90442d4bbda4d5285669c95
+#	new file:   theDude/Library/metadata/d2/d25c4f81e90442d4bbda4d5285669c95.info
+#	new file:   theDude/Library/metadata/d4/d40c191aa46654db7a426d6a1fa3aa30
+#	new file:   theDude/Library/metadata/d4/d40c191aa46654db7a426d6a1fa3aa30.info
+#	new file:   theDude/Library/metadata/d4/d4503028da08a3e4db6f86d65613f5ce
+#	new file:   theDude/Library/metadata/d4/d4503028da08a3e4db6f86d65613f5ce.info
+#	new file:   theDude/Library/metadata/d4/d4880c932a8e12b48a3039233e9634a0
+#	new file:   theDude/Library/metadata/d4/d4880c932a8e12b48a3039233e9634a0.info
+#	new file:   theDude/Library/metadata/d5/d5222114580affc49a2af92470232e23
+#	new file:   theDude/Library/metadata/d5/d5222114580affc49a2af92470232e23.info
+#	new file:   theDude/Library/metadata/d5/d5b20def9c5c05748a01627738b94531
+#	new file:   theDude/Library/metadata/d5/d5b20def9c5c05748a01627738b94531.info
+#	new file:   theDude/Library/metadata/d6/d68104aea3d1d084385a1acc7c896247
+#	new file:   theDude/Library/metadata/d6/d68104aea3d1d084385a1acc7c896247.info
+#	new file:   theDude/Library/metadata/d6/d6cdc79ec19714fcd980ca3f6ac01a0a
+#	new file:   theDude/Library/metadata/d6/d6cdc79ec19714fcd980ca3f6ac01a0a.info
+#	new file:   theDude/Library/metadata/d7/d73a8b77a39f57843b3a434596ae2bc7
+#	new file:   theDude/Library/metadata/d7/d73a8b77a39f57843b3a434596ae2bc7.info
+#	new file:   theDude/Library/metadata/d8/d8134e4dd9a11c6468abfb1683315eab
+#	new file:   theDude/Library/metadata/d8/d8134e4dd9a11c6468abfb1683315eab.info
+#	new file:   theDude/Library/metadata/d8/d88a0b7dd92c5524aaf2d65e569a6213
+#	new file:   theDude/Library/metadata/d8/d88a0b7dd92c5524aaf2d65e569a6213.info
+#	new file:   theDude/Library/metadata/d8/d89ea37480b6d75458aa38843e9688dc
+#	new file:   theDude/Library/metadata/d8/d89ea37480b6d75458aa38843e9688dc.info
+#	new file:   theDude/Library/metadata/d9/d90a8faf6fb9540b084ef2825cc3a5dc
+#	new file:   theDude/Library/metadata/d9/d90a8faf6fb9540b084ef2825cc3a5dc.info
+#	new file:   theDude/Library/metadata/d9/d947636a9390f6a46a121124154e6e3f
+#	new file:   theDude/Library/metadata/d9/d947636a9390f6a46a121124154e6e3f.info
+#	new file:   theDude/Library/metadata/d9/d954891cb9e58434d86e01d839ed4997
+#	new file:   theDude/Library/metadata/d9/d954891cb9e58434d86e01d839ed4997.info
+#	new file:   theDude/Library/metadata/da/daa7e0829bc72c94babd728cc0466196
+#	new file:   theDude/Library/metadata/da/daa7e0829bc72c94babd728cc0466196.info
+#	new file:   theDude/Library/metadata/db/db2f1c62933fa1745a9eb8479b15698b
+#	new file:   theDude/Library/metadata/db/db2f1c62933fa1745a9eb8479b15698b.info
+#	new file:   theDude/Library/metadata/db/db7667203062c644ea1877077e30ebd6
+#	new file:   theDude/Library/metadata/db/db7667203062c644ea1877077e30ebd6.info
+#	new file:   theDude/Library/metadata/dc/dc7abfa0435174ded902b073322d67cc
+#	new file:   theDude/Library/metadata/dc/dc7abfa0435174ded902b073322d67cc.info
+#	new file:   theDude/Library/metadata/dd/dd49a2ed5943a014e8d933ff5381281a
+#	new file:   theDude/Library/metadata/dd/dd49a2ed5943a014e8d933ff5381281a.info
+#	new file:   theDude/Library/metadata/de/de2ab2b9ac93bb544b9552e49030371b
+#	new file:   theDude/Library/metadata/de/de2ab2b9ac93bb544b9552e49030371b.info
+#	new file:   theDude/Library/metadata/df/dffa50cfe77e0434bbfa71245b3dd529
+#	new file:   theDude/Library/metadata/df/dffa50cfe77e0434bbfa71245b3dd529.info
+#	new file:   theDude/Library/metadata/df/dffa6c1325fd30b41819f03be58b91e7
+#	new file:   theDude/Library/metadata/df/dffa6c1325fd30b41819f03be58b91e7.info
+#	new file:   theDude/Library/metadata/e0/e004fefca5c7ba44d9c5ffd46fdee2ed
+#	new file:   theDude/Library/metadata/e0/e004fefca5c7ba44d9c5ffd46fdee2ed.info
+#	new file:   theDude/Library/metadata/e0/e053b0a94752146e79954ce4df1b5565
+#	new file:   theDude/Library/metadata/e0/e053b0a94752146e79954ce4df1b5565.info
+#	new file:   theDude/Library/metadata/e0/e09f07f9be24b2d4180a74a671348b5b
+#	new file:   theDude/Library/metadata/e0/e09f07f9be24b2d4180a74a671348b5b.info
+#	new file:   theDude/Library/metadata/e1/e183610e060210e44ac38d34e83c54d1
+#	new file:   theDude/Library/metadata/e1/e183610e060210e44ac38d34e83c54d1.info
+#	new file:   theDude/Library/metadata/e2/e21ceef391a4b284a9ac47a7961c0c1a
+#	new file:   theDude/Library/metadata/e2/e21ceef391a4b284a9ac47a7961c0c1a.info
+#	new file:   theDude/Library/metadata/e2/e2cf68ff4b1ffda45a77f7307dd789b9
+#	new file:   theDude/Library/metadata/e2/e2cf68ff4b1ffda45a77f7307dd789b9.info
+#	new file:   theDude/Library/metadata/e2/e2e84b28786ce854391d79fb76df820b
+#	new file:   theDude/Library/metadata/e2/e2e84b28786ce854391d79fb76df820b.info
+#	new file:   theDude/Library/metadata/e4/e44af8091779fcb40801d5b284353dbe
+#	new file:   theDude/Library/metadata/e4/e44af8091779fcb40801d5b284353dbe.info
+#	new file:   theDude/Library/metadata/e4/e4f1fee3de32377429fd1348fae62b10
+#	new file:   theDude/Library/metadata/e4/e4f1fee3de32377429fd1348fae62b10.info
+#	new file:   theDude/Library/metadata/e5/e52fb17f9b1e7fd48b8955f1391d3688
+#	new file:   theDude/Library/metadata/e5/e52fb17f9b1e7fd48b8955f1391d3688.info
+#	new file:   theDude/Library/metadata/e6/e621ee108fde15148a5e4b4ab67667b9
+#	new file:   theDude/Library/metadata/e6/e621ee108fde15148a5e4b4ab67667b9.info
+#	new file:   theDude/Library/metadata/e6/e625f56663597ef4899f86b588b4d506
+#	new file:   theDude/Library/metadata/e6/e625f56663597ef4899f86b588b4d506.info
+#	new file:   theDude/Library/metadata/e6/e633a20421c47426aa04444234225b69
+#	new file:   theDude/Library/metadata/e6/e633a20421c47426aa04444234225b69.info
+#	new file:   theDude/Library/metadata/e6/e6569085fafaa4cd1b747c51376fa329
+#	new file:   theDude/Library/metadata/e6/e6569085fafaa4cd1b747c51376fa329.info
+#	new file:   theDude/Library/metadata/e6/e6751882f7503bd4f9c6c3902e8b6188
+#	new file:   theDude/Library/metadata/e6/e6751882f7503bd4f9c6c3902e8b6188.info
+#	new file:   theDude/Library/metadata/e6/e6a8e6ae86a5b904eb64f573f145ecde
+#	new file:   theDude/Library/metadata/e6/e6a8e6ae86a5b904eb64f573f145ecde.info
+#	new file:   theDude/Library/metadata/e7/e70b47c0cfc1d4b12a3c663d7582a523
+#	new file:   theDude/Library/metadata/e7/e70b47c0cfc1d4b12a3c663d7582a523.info
+#	new file:   theDude/Library/metadata/e7/e7b22774d57de9f4eb961b3ff68ed80a
+#	new file:   theDude/Library/metadata/e7/e7b22774d57de9f4eb961b3ff68ed80a.info
+#	new file:   theDude/Library/metadata/e7/e7b2d3eeb0a4d694792c93a8ab87e4a4
+#	new file:   theDude/Library/metadata/e7/e7b2d3eeb0a4d694792c93a8ab87e4a4.info
+#	new file:   theDude/Library/metadata/e9/e9714160ce34f2b4ab63ff8c27bd68e1
+#	new file:   theDude/Library/metadata/e9/e9714160ce34f2b4ab63ff8c27bd68e1.info
+#	new file:   theDude/Library/metadata/e9/e9714160ce34f2b4ab63ff8c27bd68e1.resource
+#	new file:   theDude/Library/metadata/ea/ea5873cfd9158664f89459f0c9e1d853
+#	new file:   theDude/Library/metadata/ea/ea5873cfd9158664f89459f0c9e1d853.info
+#	new file:   theDude/Library/metadata/ea/ea5ccbd85cf4ce74d911e226587f70cf
+#	new file:   theDude/Library/metadata/ea/ea5ccbd85cf4ce74d911e226587f70cf.info
+#	new file:   theDude/Library/metadata/ea/ea60173ceac07334c91568c48cc765cd
+#	new file:   theDude/Library/metadata/ea/ea60173ceac07334c91568c48cc765cd.info
+#	new file:   theDude/Library/metadata/ea/ea9799c461d3f6e4eb0be2264829282d
+#	new file:   theDude/Library/metadata/ea/ea9799c461d3f6e4eb0be2264829282d.info
+#	new file:   theDude/Library/metadata/eb/eb0e763ded53048dd80e7b78c35ded56
+#	new file:   theDude/Library/metadata/eb/eb0e763ded53048dd80e7b78c35ded56.info
+#	new file:   theDude/Library/metadata/eb/eb5f6e2757c821940b69cf1456f7865a
+#	new file:   theDude/Library/metadata/eb/eb5f6e2757c821940b69cf1456f7865a.info
+#	new file:   theDude/Library/metadata/eb/eb6d0d11aa24844488ea026462c8b6aa
+#	new file:   theDude/Library/metadata/eb/eb6d0d11aa24844488ea026462c8b6aa.info
+#	new file:   theDude/Library/metadata/ee/ee07ea8cb1a00c844b4048d37dcfe712
+#	new file:   theDude/Library/metadata/ee/ee07ea8cb1a00c844b4048d37dcfe712.info
+#	new file:   theDude/Library/metadata/ee/ee0b78d572fcec249860ad38970b7888
+#	new file:   theDude/Library/metadata/ee/ee0b78d572fcec249860ad38970b7888.info
+#	new file:   theDude/Library/metadata/ef/ef5c51cfa2ce46043a41a376b560c525
+#	new file:   theDude/Library/metadata/ef/ef5c51cfa2ce46043a41a376b560c525.info
+#	new file:   theDude/Library/metadata/f0/f030ca9293dfc164c8bc07b982e19f38
+#	new file:   theDude/Library/metadata/f0/f030ca9293dfc164c8bc07b982e19f38.info
+#	new file:   theDude/Library/metadata/f0/f03e10c73f30b4ab4aa8ea8f1cc16d36
+#	new file:   theDude/Library/metadata/f0/f03e10c73f30b4ab4aa8ea8f1cc16d36.info
+#	new file:   theDude/Library/metadata/f0/f0d8945c7972e4747aa776e16494fa37
+#	new file:   theDude/Library/metadata/f0/f0d8945c7972e4747aa776e16494fa37.info
+#	new file:   theDude/Library/metadata/f1/f15241bc5a839ea46bf857431081d715
+#	new file:   theDude/Library/metadata/f1/f15241bc5a839ea46bf857431081d715.info
+#	new file:   theDude/Library/metadata/f1/f1bc741ea0e69a241896582ddb633d55
+#	new file:   theDude/Library/metadata/f1/f1bc741ea0e69a241896582ddb633d55.info
+#	new file:   theDude/Library/metadata/f2/f2bed5dc5afacff44a00de8daae9703b
+#	new file:   theDude/Library/metadata/f2/f2bed5dc5afacff44a00de8daae9703b.info
+#	new file:   theDude/Library/metadata/f2/f2ec2b96de5640e42a622fc3064f1c80
+#	new file:   theDude/Library/metadata/f2/f2ec2b96de5640e42a622fc3064f1c80.info
+#	new file:   theDude/Library/metadata/f3/f3f33f034733d9f4f9d439d80e26bdce
+#	new file:   theDude/Library/metadata/f3/f3f33f034733d9f4f9d439d80e26bdce.info
+#	new file:   theDude/Library/metadata/f4/f420aff58dc8992489809a07ff0b3889
+#	new file:   theDude/Library/metadata/f4/f420aff58dc8992489809a07ff0b3889.info
+#	new file:   theDude/Library/metadata/f4/f43b0d85aede78949b2f8fa931a218a4
+#	new file:   theDude/Library/metadata/f4/f43b0d85aede78949b2f8fa931a218a4.info
+#	new file:   theDude/Library/metadata/f4/f45a39483cf4f914a816af821c9262bb
+#	new file:   theDude/Library/metadata/f4/f45a39483cf4f914a816af821c9262bb.info
+#	new file:   theDude/Library/metadata/f5/f568ca8b20ae095418f3e2a3b341d8f6
+#	new file:   theDude/Library/metadata/f5/f568ca8b20ae095418f3e2a3b341d8f6.info
+#	new file:   theDude/Library/metadata/f5/f588d850485d0ae479d73cf3bd0b7b00
+#	new file:   theDude/Library/metadata/f5/f588d850485d0ae479d73cf3bd0b7b00.info
+#	new file:   theDude/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+#	new file:   theDude/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+#	new file:   theDude/Library/metadata/f6/f62b52b2d4b721742a0bc5c6b4db468d
+#	new file:   theDude/Library/metadata/f6/f62b52b2d4b721742a0bc5c6b4db468d.info
+#	new file:   theDude/Library/metadata/f7/f76806479d916a64aa03f8e3eba7912f
+#	new file:   theDude/Library/metadata/f7/f76806479d916a64aa03f8e3eba7912f.info
+#	new file:   theDude/Library/metadata/f8/f82badc465974aa4cbc424065780aa3d
+#	new file:   theDude/Library/metadata/f8/f82badc465974aa4cbc424065780aa3d.info
+#	new file:   theDude/Library/metadata/f9/f93df448921b46c45999c77f43856ba2
+#	new file:   theDude/Library/metadata/f9/f93df448921b46c45999c77f43856ba2.info
+#	new file:   theDude/Library/metadata/fa/fa40ba727cdc90245aac11f0ff5ead8e
+#	new file:   theDude/Library/metadata/fa/fa40ba727cdc90245aac11f0ff5ead8e.info
+#	new file:   theDude/Library/metadata/fb/fb6566c21f717904f83743a5a76dd0b0
+#	new file:   theDude/Library/metadata/fb/fb6566c21f717904f83743a5a76dd0b0.info
+#	new file:   theDude/Library/metadata/fc/fc67a9002ed4034419f91d0d85bd6b24
+#	new file:   theDude/Library/metadata/fc/fc67a9002ed4034419f91d0d85bd6b24.info
+#	new file:   theDude/Library/metadata/fc/fccca0d181c493e46828f38365641574
+#	new file:   theDude/Library/metadata/fc/fccca0d181c493e46828f38365641574.info
+#	new file:   theDude/Library/metadata/fd/fdb77c3917027234db7a7792019eda2e
+#	new file:   theDude/Library/metadata/fd/fdb77c3917027234db7a7792019eda2e.info
+#	new file:   theDude/Library/metadata/fe/fe5d00245bc1d42a7927f4b2879026b8
+#	new file:   theDude/Library/metadata/fe/fe5d00245bc1d42a7927f4b2879026b8.info
+#	new file:   theDude/Library/metadata/fe/fecc9f713338e4943a8c38775af8c046
+#	new file:   theDude/Library/metadata/fe/fecc9f713338e4943a8c38775af8c046.info
+#	new file:   theDude/Library/metadata/fe/feda0c18015b3284cabbc0da85254f9a
+#	new file:   theDude/Library/metadata/fe/feda0c18015b3284cabbc0da85254f9a.info
+#	new file:   theDude/Library/shadercompiler-UnityShaderCompiler.exe0.log
+#	new file:   theDude/ProjectSettings/AudioManager.asset
+#	new file:   theDude/ProjectSettings/ClusterInputManager.asset
+#	new file:   theDude/ProjectSettings/DynamicsManager.asset
+#	new file:   theDude/ProjectSettings/EditorBuildSettings.asset
+#	new file:   theDude/ProjectSettings/EditorSettings.asset
+#	new file:   theDude/ProjectSettings/GraphicsSettings.asset
+#	new file:   theDude/ProjectSettings/InputManager.asset
+#	new file:   theDude/ProjectSettings/NavMeshAreas.asset
+#	new file:   theDude/ProjectSettings/NetworkManager.asset
+#	new file:   theDude/ProjectSettings/Physics2DSettings.asset
+#	new file:   theDude/ProjectSettings/ProjectSettings.asset
+#	new file:   theDude/ProjectSettings/ProjectVersion.txt
+#	new file:   theDude/ProjectSettings/QualitySettings.asset
+#	new file:   theDude/ProjectSettings/TagManager.asset
+#	new file:   theDude/ProjectSettings/TimeManager.asset
+#	new file:   theDude/ProjectSettings/UnityAdsSettings.asset
+#	new file:   theDude/ProjectSettings/UnityConnectSettings.asset
+#	new file:   theDude/Temp/TarGZ/archtemp.tar
+#
+# Untracked files:
+#	theDude/Temp/UnityLockfile
+#	theDude/Temp/UnityTempFile-1badbe391e8cae14caba2995f4fb5530
+#	theDude/Temp/UnityTempFile-45d26f4866daedb4e9820e59958d2ad5
+#	theDude/Temp/UnityTempFile-65c3303e36005b24daee9e57f5abeea6
+#	theDude/Temp/UnityTempFile-6af97f25941aa7c4589f33036555c37e
+#	theDude/Temp/UnityTempFile-89526ee20f4382f4f8b37c8c67bc315e
+#	theDude/Temp/UnityTempFile-8dd7cf8b64d9a4b49b5c1ecc9d78846e
+#	theDude/Temp/UnityTempFile-adc84543a70942c4ebfa14b92514cdc8
+#	theDude/Temp/UnityTempFile-dad75807599fcf24081a87b16d84a084
+#	theDude/Temp/__Backupscenes/
+#
+
