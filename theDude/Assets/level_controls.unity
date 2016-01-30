@@ -3569,6 +3569,22 @@ Prefab:
       propertyPath: m_Name
       value: hero
       objectReference: {fileID: 0}
+    - target: {fileID: 498216, guid: 7e94eaee96517214ba2e66dede353f13, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 21238866, guid: 7e94eaee96517214ba2e66dede353f13, type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21281538, guid: 7e94eaee96517214ba2e66dede353f13, type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21228720, guid: 7e94eaee96517214ba2e66dede353f13, type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7e94eaee96517214ba2e66dede353f13, type: 2}
   m_IsPrefabParent: 0

@@ -5,7 +5,7 @@ public class environmentChanger : MonoBehaviour {
 
 
 	public bool raining=false;
-	public float duration=2f;
+	public float duration=5f;
 	public float durationMultiplier=1f;
 	public GameObject rainDrop;
 	public GameObject rainDrop2;
