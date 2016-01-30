@@ -64,7 +64,7 @@ AudioMixerGroupController:
   - {fileID: 24461630}
   - {fileID: 24419808}
   m_UserColorIndex: 0
-  m_Mute: 0
+  m_Mute: 1
   m_Solo: 0
   m_BypassEffects: 0
 --- !u!243 &24328480
@@ -84,7 +84,7 @@ AudioMixerGroupController:
   - {fileID: 24417978}
   - {fileID: 24455716}
   m_UserColorIndex: 0
-  m_Mute: 0
+  m_Mute: 1
   m_Solo: 0
   m_BypassEffects: 0
 --- !u!243 &24336022
@@ -163,7 +163,7 @@ AudioMixerGroupController:
   - {fileID: 24412710}
   - {fileID: 24429808}
   m_UserColorIndex: 0
-  m_Mute: 0
+  m_Mute: 1
   m_Solo: 0
   m_BypassEffects: 0
 --- !u!243 &24367588
@@ -180,7 +180,6 @@ AudioMixerGroupController:
   m_Effects:
   - {fileID: 24482486}
   - {fileID: 24454904}
-  - {fileID: 24402190}
   - {fileID: 24433430}
   - {fileID: 24454548}
   m_UserColorIndex: 0
@@ -197,27 +196,6 @@ AudioMixerEffectController:
   m_EffectName: Attenuation
   m_MixLevel: 4946f0a9b749da44197d6e68dd98094f
   m_Parameters: []
-  m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 0
---- !u!244 &24402190
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_EffectID: 09fdfb5a7f81b2a44b5a771bd5fac67c
-  m_EffectName: Compressor
-  m_MixLevel: bfab5166790001b41a1714e80fa10ed9
-  m_Parameters:
-  - m_ParameterName: Threshold
-    m_GUID: 8700b28e1e2224842a7f86e373655bb5
-  - m_ParameterName: Attack
-    m_GUID: 39d89b4107d4d3841aebee5e06231640
-  - m_ParameterName: Release
-    m_GUID: 31bec52e079e6a54bb8f581c0c5dc487
-  - m_ParameterName: Make up gain
-    m_GUID: e575568a44f7f86429f1a5e2498baa10
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
@@ -699,7 +677,7 @@ AudioMixerSnapshotController:
     9200b8d00349a514cb81a3fd08e7aeb0: 4705
     1522c8012821d2549b65dbb9ae6315ac: 32
     26c3b1115d5a433478d2017f48e6cf38: -19.928473
-    1522103154100c147a914e8ba798f2a9: -0.08374883
+    1522103154100c147a914e8ba798f2a9: 4.5253077
     39d89b4107d4d3841aebee5e06231640: 25.8
     51e4d6127d4afe846b6a3c7503d73bd1: 0.25
     fee99e1253903bb43b411da87ab6f62d: -10000
@@ -763,7 +741,7 @@ AudioMixerSnapshotController:
     e4e2944e1c7c7a746aa926dfdbcbd1cd: 124.4
     8ccbb55e9c221fc409f37c2492173ed0: 0.44032478
     e26d297e336f98c48a1717f54168d3ff: 0
-    8700b28e1e2224842a7f86e373655bb5: -25
+    8700b28e1e2224842a7f86e373655bb5: 0
     34acad8eeaec68e4dad7b667b02e4385: 0.696
     36699bae708127048bb06fcb6da5a387: 1.85
     95ef97def81e25f438603b89892d2855: 29.4
