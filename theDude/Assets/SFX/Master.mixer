@@ -13,7 +13,9 @@ AudioMixerController:
   m_StartSnapshot: {fileID: 24500003}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 26265820ef0594f429f9d80ef0347bc6
+    name: MyExposedParam
   m_AudioMixerGroupViews:
   - guids:
     - 92928c193c3abca4fb1a8cac4af32c59
@@ -103,7 +105,7 @@ AudioMixerGroupController:
   - {fileID: 24440112}
   - {fileID: 24447906}
   m_UserColorIndex: 0
-  m_Mute: 1
+  m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
 --- !u!243 &24338674
@@ -183,7 +185,7 @@ AudioMixerGroupController:
   - {fileID: 24433430}
   - {fileID: 24454548}
   m_UserColorIndex: 0
-  m_Mute: 0
+  m_Mute: 1
   m_Solo: 0
   m_BypassEffects: 0
 --- !u!244 &24400002
