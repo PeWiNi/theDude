@@ -3,6 +3,7 @@ using System.Collections;
 
 public class environmentChanger : MonoBehaviour {
 
+
 	public bool raining=false;
 	public float duration=2f;
 	public float durationMultiplier=1f;
