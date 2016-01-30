@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class Rotate : MonoBehaviour {
-    Transform RightArm; // Go between 0 and 180 IJKL
-    Transform RightArmLower; // Go 360 IJKL
-    Transform LeftArm; // Go between 0 and 180 WASD
-    Transform LeftArmLower; // Go 360 WASD
+    Transform RightArm; // IJKL
+    Transform RightArmLower; // IJKL
+    Transform LeftArm; // WASD
+    Transform LeftArmLower; // WASD
 
 
     // Use this for initialization
@@ -22,7 +22,36 @@ public class Rotate : MonoBehaviour {
 	    if(Input.GetKeyDown(KeyCode.R)) {
             Reset();
         }
-	}
+        Rotation(RightArm, false);
+        Rotation(LeftArm, true);
+    }
+
+    void Rotation(Transform t, bool WASD) { //Alt to WASD is IJKL
+        if (Input.GetKey(WASD ? KeyCode.W : KeyCode.I)) {
+            if (t.rotation.eulerAngles.z >= 0)
+                t.rotation = Quaternion.Euler(Vector3.Lerp(t.rotation.eulerAngles, new Vector3(0, 0, 180), Time.deltaTime));
+            else
+                t.rotation = Quaternion.Euler(Vector3.Lerp(t.rotation.eulerAngles, new Vector3(0, 0, -180), Time.deltaTime));
+        }
+        if (Input.GetKey(WASD ? KeyCode.A : KeyCode.J)) {
+            if (t.rotation.eulerAngles.z <= 90)
+                t.rotation = Quaternion.Euler(Vector3.Lerp(t.rotation.eulerAngles, new Vector3(0, 0, -90), Time.deltaTime));
+            else
+                t.rotation = Quaternion.Euler(Vector3.Lerp(t.rotation.eulerAngles, new Vector3(0, 0, 270), Time.deltaTime));
+        }
+        if (Input.GetKey(WASD ? KeyCode.S : KeyCode.K)) {
+            if (t.rotation.eulerAngles.z <= 180)
+                t.rotation = Quaternion.Euler(Vector3.Lerp(t.rotation.eulerAngles, new Vector3(0, 0, 0), Time.deltaTime));
+            else
+                t.rotation = Quaternion.Euler(Vector3.Lerp(t.rotation.eulerAngles, new Vector3(0, 0, 360), Time.deltaTime));
+        }
+        if (Input.GetKey(WASD ? KeyCode.D : KeyCode.L)) {
+            if (t.rotation.eulerAngles.z <= 270) // I HATE YOU!
+                t.rotation = Quaternion.Euler(Vector3.Lerp(t.rotation.eulerAngles, new Vector3(0, 0, 90), Time.deltaTime));
+            else
+                t.rotation = Quaternion.Euler(Vector3.Lerp(t.rotation.eulerAngles, new Vector3(0, 0, -270), Time.deltaTime));
+        }
+    }
 
     void Reset() {
         RightArm.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
