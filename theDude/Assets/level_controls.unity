@@ -749,7 +749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.5448277, b: 1, a: 1}
+  m_Color: {r: 0.17254902, g: 0.3529412, b: 0.29411766, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1011,6 +1011,7 @@ MonoBehaviour:
   duration: 2
   durationMultiplier: 1
   rainDrop: {fileID: 147644, guid: e683e1c65838afd4a9151e4eec6862c9, type: 2}
+  rainDrop2: {fileID: 147630, guid: 1e419961a4e6eba4d8131acd3bf3b4ac, type: 2}
   flame1: {fileID: 130106, guid: 34afc135698f0214a92898bd1e706d51, type: 2}
   flame2: {fileID: 140220, guid: e6fe3b5dd19cacd4bb9cf4ecc1ae1d6b, type: 2}
   time: 0
@@ -2887,7 +2888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.976, g: 0.478, b: 0.05839101, a: 1}
+  m_Color: {r: 0.81568635, g: 0.57254905, b: 0.18431373, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3329,7 +3330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.52205884, b: 0.13321494, a: 1}
+  m_Color: {r: 0.15686275, g: 0.45098042, b: 0.28235295, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3637,7 +3638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.78676474, g: 0.9823529, b: 1, a: 1}
+  m_Color: {r: 0.6156863, g: 0.5803922, b: 0.5176471, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

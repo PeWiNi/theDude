@@ -23,10 +23,7 @@ public class rainDrops : MonoBehaviour {
 		if (col.transform.name == "flame1(Clone)" || col.transform.name == "flame2(Clone)")
 			Destroy (col.gameObject);
 			Destroy (gameObject);
-		if (col.transform.name == "raft")
-			move ();
+
 	}
-	void move(){
-		Debug.Log ("moving");
-	}
+
 }

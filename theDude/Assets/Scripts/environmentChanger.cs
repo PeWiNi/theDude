@@ -8,6 +8,7 @@ public class environmentChanger : MonoBehaviour {
 	public float duration=2f;
 	public float durationMultiplier=1f;
 	public GameObject rainDrop;
+	public GameObject rainDrop2;
 	public GameObject flame1; 
 	public GameObject flame2; 
 	public float time;
@@ -68,10 +69,15 @@ public class environmentChanger : MonoBehaviour {
 			yield return new WaitForSeconds (0.001f);
 
 			if (raining) {
+				int rd = (int)Random.Range (0, 100);
 				Vector3 pos = new Vector3 (Random.Range (-24.5f, 24.5f), 18.5f, Random.Range (0.02f, 0.03f));
 				noDrops++;
 				//Debug.Log (noDrops);
-				Instantiate (rainDrop, pos, Quaternion.identity);
+				if (rd <= 50)
+					Instantiate (rainDrop, pos, Quaternion.identity);
+				else
+					Instantiate (rainDrop2, pos, Quaternion.identity);
+				
 
                 //Kill Clouds
                 foreach (CloudScript cs in GameObject.FindObjectsOfType<CloudScript>())
