@@ -44,7 +44,7 @@ public class environmentChanger : MonoBehaviour {
 		StartCoroutine (addWave (duration*durationMultiplier*10f));
 
 		yield return new WaitForSeconds (duration * durationMultiplier);
-		raining = !raining;
+		//raining = !raining;
 	
 		float currentTime = Time.realtimeSinceStartup - time;
 		//Debug.Log ("Current time :" + currentTime + " duration :" + duration + " raining: " + raining); 

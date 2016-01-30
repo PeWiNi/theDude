@@ -20,7 +20,7 @@ public class death : MonoBehaviour {
 		Image img = panel.GetComponent<Image> ();
 		if (col.transform.name=="hero")
 		{	
-			Destroy (col.gameObject);
+			Destroy (col.gameObject,0.5f);
 			//panel.SetActive(true);
 			img.enabled=true;
 		}

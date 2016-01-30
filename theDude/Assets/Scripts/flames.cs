@@ -5,7 +5,7 @@ public class flames : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Destroy (gameObject, 20f);
+		Destroy (gameObject, 5f);
 	//	environmentChanger.noFlames--;
 		//Debug.Log (environmentChanger.noFlames);
 	}
@@ -28,6 +28,9 @@ public class flames : MonoBehaviour {
 		GameObject raft = GameObject.Find ("raft");
 		Vector3 shrinked = new Vector3 (raft.transform.localScale.x*0.995f,raft.transform.localScale.y *0.995f,1);
 		raft.transform.localScale = shrinked;
+		GameObject pole = GameObject.Find ("pole");
+		shrinked = new Vector3 (pole.transform.localScale.x * 0.995f, pole.transform.localScale.y, 1);
+		pole.transform.localScale = shrinked;
 	}
 
 	}

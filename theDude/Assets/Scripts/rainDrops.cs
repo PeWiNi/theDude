@@ -19,7 +19,7 @@ public class rainDrops : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
-		Debug.Log (col.transform.name);
+//		Debug.Log (col.transform.name);
 		if (col.transform.name == "flame1(Clone)" || col.transform.name == "flame2(Clone)")
 			Destroy (col.gameObject);
 			Destroy (gameObject);
