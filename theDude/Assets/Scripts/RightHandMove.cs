@@ -7,21 +7,6 @@ public class RightHandMove : MonoBehaviour {
 	public float maxSpeed = 5f;				// The fastest the player can travel in the x axis.
 
 
-
-
-	private Transform groundCheck;			// A position marking where to check if the player is grounded.
-	private bool grounded = false;			// Whether or not the player is grounded.
-	public bool facingRight = true;
-
-
-	void Awake()
-	{
-		// Setting up references.
-		groundCheck = transform.Find("groundCheck");
-
-	}
-
-
 	void Update()
 	{
 		// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.

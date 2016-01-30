@@ -8,20 +8,6 @@ public class LeftLegMove : MonoBehaviour {
 
 
 
-
-	private Transform groundCheck;			// A position marking where to check if the player is grounded.
-	private bool grounded = false;			// Whether or not the player is grounded.
-	public bool facingRight = true;
-
-
-	void Awake()
-	{
-		// Setting up references.
-		groundCheck = transform.Find("groundCheck");
-
-	}
-
-
 	void Update()
 	{
 		// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
@@ -50,6 +36,12 @@ public class LeftLegMove : MonoBehaviour {
 			GetComponent<Rigidbody2D> ().velocity = new Vector2 (Mathf.Sign (GetComponent<Rigidbody2D> ().velocity.x) * maxSpeed, GetComponent<Rigidbody2D> ().velocity.y);
 */
 
+		}
+		if (Input.GetButtonDown ("left")) {
+			Debug.Log ("btn3");
+		}
+		if (Input.GetButtonDown ("right")) {
+			Debug.Log ("btn2");
 		}
 	}
 

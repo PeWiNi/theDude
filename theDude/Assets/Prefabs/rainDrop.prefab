@@ -11,6 +11,8 @@ GameObject:
   - 212: {fileID: 21212216}
   - 50: {fileID: 5026598}
   - 61: {fileID: 6197868}
+  - 61: {fileID: 6181682}
+  - 114: {fileID: 11406450}
   m_Layer: 0
   m_Name: rainDrop
   m_TagString: Untagged
@@ -25,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.375, y: 0, z: 0}
+  m_LocalPosition: {x: -14.2, y: -0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38,16 +40,16 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147644}
   m_UseAutoMass: 0
-  m_Mass: 0.3
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.6
+  m_GravityScale: 0.3
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &6197868
+--- !u!61 &6181682
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -58,9 +60,34 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+  m_Offset: {x: 0.0014333725, y: -0.02971077}
+  serializedVersion: 2
+  m_Size: {x: 0.15397218, y: 0.1591233}
+--- !u!61 &6197868
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147644}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
   m_Offset: {x: 0.0033715963, y: -0.02637595}
   serializedVersion: 2
   m_Size: {x: 0.13142204, y: 0.14686066}
+--- !u!114 &11406450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7712d078d0c3548b678bf5b0a1a3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21212216
 SpriteRenderer:
   m_ObjectHideFlags: 1
