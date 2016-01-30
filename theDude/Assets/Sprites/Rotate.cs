@@ -120,22 +120,33 @@ public class Rotate : MonoBehaviour {
     }
 
     void BendKnees(Transform Leg, bool left) {
-        if (Input.GetButton(left ? "moveLeftLeg" : "moveRightLeg")) { //QE
+        if (Input.GetButton("moveRightLeg") && !left) { //QE
             Leg.rotation = Quaternion.Euler(Vector3.Lerp(Leg.rotation.eulerAngles,
                 new Vector3(0, 0, 90), time * 2));
             float bendy;
             if (Leg.rotation.eulerAngles.z < 85)
                 bendy = 270;
             else
-                bendy = 355f;
+                bendy = 359f;
+            Leg.GetChild(0).transform.localRotation = Quaternion.Euler(
+                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, bendy, time * 2));
+        }
+        if(Input.GetButton("moveLeftLeg") && left) {
+            Leg.rotation = Quaternion.Euler(Vector3.Lerp(Leg.rotation.eulerAngles,
+                new Vector3(0, 0, 270), time * 2));
+            float bendy;
+            if (Leg.rotation.eulerAngles.z > 275)
+                bendy = 90;
+            else
+                bendy = 0;
             Leg.GetChild(0).transform.localRotation = Quaternion.Euler(
                 0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, bendy, time * 2));
         }
         if (Input.GetButton(left ? "left" : "right")) { //ZC
             Leg.rotation = Quaternion.Euler(Vector3.Lerp(Leg.rotation.eulerAngles,
-                new Vector3(0, 0, 0), time * 2));
+                new Vector3(0, 0, left ? 359 : 0), time * 2));
             Leg.GetChild(0).transform.localRotation = Quaternion.Euler(
-                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, 355f, time * 2));
+                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, left ? 0 : 359f, time * 2));
         }
     }
 
@@ -147,7 +158,7 @@ public class Rotate : MonoBehaviour {
 
         RightLeg.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
         RightLeg.GetChild(0).transform.rotation = Quaternion.Euler(new Vector3(0, 0, 359));
-        LeftLeg.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
-        LeftLeg.GetChild(0).transform.rotation = Quaternion.Euler(new Vector3(0, 0, 359));
+        LeftLeg.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 359));
+        LeftLeg.GetChild(0).transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
     }
 }
