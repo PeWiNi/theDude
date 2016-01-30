@@ -72,6 +72,9 @@ public class environmentChanger : MonoBehaviour {
 				//Debug.Log (noDrops);
 				Instantiate (rainDrop, pos, Quaternion.identity);
 
+                //Kill Clouds
+                foreach (CloudScript cs in GameObject.FindObjectsOfType<CloudScript>())
+                    cs.KillMe();
 			} else {
 				noFlames++;
 				//Debug.Log (noFlames);
