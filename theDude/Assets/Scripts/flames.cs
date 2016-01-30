@@ -5,9 +5,9 @@ public class flames : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Destroy (gameObject, 10f);
-		environmentChanger.noFlames--;
-		Debug.Log (environmentChanger.noFlames);
+		Destroy (gameObject, 20f);
+	//	environmentChanger.noFlames--;
+		//Debug.Log (environmentChanger.noFlames);
 	}
 	
 	// Update is called once per frame
@@ -24,7 +24,10 @@ public class flames : MonoBehaviour {
 		}
 
 	void shrink(){
-		Debug.Log ("make raft smaller");
+	//	Debug.Log ("make raft smaller");
+		GameObject raft = GameObject.Find ("raft");
+		Vector3 shrinked = new Vector3 (raft.transform.localScale.x*0.995f,raft.transform.localScale.y *0.995f,1);
+		raft.transform.localScale = shrinked;
 	}
 
 	}

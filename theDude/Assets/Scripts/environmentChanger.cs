@@ -11,17 +11,17 @@ public class environmentChanger : MonoBehaviour {
 	public GameObject flame2; 
 	public float time;
 	public float maXtime=300f;
-	[SerializeField]
-	public	static int noFlames=0;
-	[SerializeField]
-	public static 	int noDrops=0;
+
+	public static int noFlames=0;
+
+	public static int noDrops=0;
 
 	// Use this for initialization
 	void Start () {
 	//	StartCoroutine (fillTheScreen ());
 		time = Time.realtimeSinceStartup;
 
-		StartCoroutine(addWave(800f));
+		StartCoroutine(addWave(200f));
 
 	/*	for (int i = 0; i < 2400; i++) {
 			int fl = (int)Random.Range (0, 100);
@@ -64,15 +64,17 @@ public class environmentChanger : MonoBehaviour {
 	IEnumerator addWave(float progress){
 
 		while (progress > 0f) {
-			yield return new WaitForSeconds (0.01f);
+			yield return new WaitForSeconds (0.001f);
 
 			if (raining) {
 				Vector3 pos = new Vector3 (Random.Range (-24.5f, 24.5f), 18.5f, Random.Range (0.02f, 0.03f));
 				noDrops++;
+				//Debug.Log (noDrops);
 				Instantiate (rainDrop, pos, Quaternion.identity);
 
 			} else {
 				noFlames++;
+				//Debug.Log (noFlames);
 				int fl = (int)Random.Range (0, 100);
 				Vector3 pos = new Vector3 (Random.Range (-24.5f, 24.5f), -0.8f, Random.Range (0.02f, 0.03f));
 				if (fl <= 50)

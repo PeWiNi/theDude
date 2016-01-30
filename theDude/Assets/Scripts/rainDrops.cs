@@ -8,8 +8,8 @@ public class rainDrops : MonoBehaviour {
 	void Start () {
 
 		Destroy (gameObject, 2.5f);
-		environmentChanger.noDrops--;
-		Debug.Log (environmentChanger.noDrops);
+		//environmentChanger.noDrops--;
+		//Debug.Log (environmentChanger.noDrops);
 	}
 	
 	// Update is called once per frame
