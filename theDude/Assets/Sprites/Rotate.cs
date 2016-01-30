@@ -123,11 +123,11 @@ public class Rotate : MonoBehaviour {
         if (Input.GetButton(left ? "moveLeftLeg" : "moveRightLeg")) { //QE
             Leg.rotation = Quaternion.Euler(Vector3.Lerp(Leg.rotation.eulerAngles,
                 new Vector3(0, 0, 90), time * 2));
-            int bendy;
+            float bendy;
             if (Leg.rotation.eulerAngles.z < 85)
                 bendy = 270;
             else
-                bendy = 359;
+                bendy = 355f;
             Leg.GetChild(0).transform.localRotation = Quaternion.Euler(
                 0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, bendy, time * 2));
         }
@@ -135,7 +135,7 @@ public class Rotate : MonoBehaviour {
             Leg.rotation = Quaternion.Euler(Vector3.Lerp(Leg.rotation.eulerAngles,
                 new Vector3(0, 0, 0), time * 2));
             Leg.GetChild(0).transform.localRotation = Quaternion.Euler(
-                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, 359, time * 2));
+                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, 355f, time * 2));
         }
     }
 
