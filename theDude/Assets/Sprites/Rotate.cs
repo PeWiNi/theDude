@@ -129,13 +129,13 @@ public class Rotate : MonoBehaviour {
             else
                 bendy = 359;
             Leg.GetChild(0).transform.localRotation = Quaternion.Euler(
-                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, bendy, time));
+                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, bendy, time * 2));
         }
         if (Input.GetButton(left ? "left" : "right")) { //ZC
             Leg.rotation = Quaternion.Euler(Vector3.Lerp(Leg.rotation.eulerAngles,
                 new Vector3(0, 0, 0), time * 2));
             Leg.GetChild(0).transform.localRotation = Quaternion.Euler(
-                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, 359, time));
+                0, 0, Mathf.Lerp(Leg.GetChild(0).transform.localRotation.eulerAngles.z, 359, time * 2));
         }
     }
 
