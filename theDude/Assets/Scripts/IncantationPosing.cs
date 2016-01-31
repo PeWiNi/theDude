@@ -1,31 +1,74 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class IncantationPosing : MonoBehaviour {
     public float leeway = 20;
     Rotate character;
+    Canvas canvas;
+    incantations incantiees;
     incant current = incant.none;
 	// Use this for initialization
 	void Start () {
         character = GameObject.Find("hero").GetComponentInChildren<Rotate>();
+        canvas = transform.parent.GetComponent<Canvas>();
+        incantiees = GameObject.Find("envChanger").GetComponentInChildren<incantations>();
 
-        print("0, 0 : true | " + checker(0, 0));
-        print("359, 0 : true | " + checker(359, 0));
-        print("359, 15 : true | " + checker(359, 15));
-        print("0, 25 : false | " + checker(0, 25));
-        print("359, 25 : false | " + checker(359, 25));
-        print("0, 350 : true | " + checker(0, 350));
-        print("30, 45 : true | " + checker(30, 45));
-        print("330, 5 : false | " + checker(330, 5));
+        print("  0,   0 : true  | " + checker(0, 0));
+        print("359,   0 : true  | " + checker(359, 0));
+        print("359,  15 : true  | " + checker(359, 15));
+        print("  0,  25 : false | " + checker(0, 25));
+        print("359,  25 : false | " + checker(359, 25));
+        print("  0, 350 : true  | " + checker(0, 350));
+        print(" 30,  45 : true  | " + checker(30, 45));
+        print("330,   5 : false | " + checker(330, 5));
     }
 	enum incant {
         A1, A2, B1, B2, C1, C2, D1, D2, none
     }
 	// Update is called once per frame
 	void Update () {
-        if (current == incant.A1)
-            setA1(true);
-	}
+        //if (current == incant.A1)
+        //    setA1(true);
+        if (!Input.anyKey) {
+            if (incA1()) {
+                canvas.GetComponentsInChildren<Button>()[2].Select();
+                current = incant.A1;
+            }
+            if (incA2()) {
+                canvas.GetComponentsInChildren<Button>()[3].Select();
+                if(current == incant.A1)
+                    incantiees.startFire();
+            }
+            if (incB1()) {
+                canvas.GetComponentsInChildren<Button>()[0].Select();
+                current = incant.C1;
+            }
+            if (incB2()) {
+                canvas.GetComponentsInChildren<Button>()[1].Select();
+                if (current == incant.C1)
+                    incantiees.startRain();
+            }
+            if (incC1()) {
+                canvas.GetComponentsInChildren<Button>()[2].Select();
+                current = incant.A1;
+            }
+            if (incC2()) {
+                canvas.GetComponentsInChildren<Button>()[2].Select();
+                if (current == incant.A1)
+                    incantiees.startFire();
+            }
+            if (incD1()) {
+                canvas.GetComponentsInChildren<Button>()[0].Select();
+                current = incant.D1;
+            }
+            if (incD2()) {
+                canvas.GetComponentsInChildren<Button>()[1].Select();
+                if (current == incant.D1)
+                    incantiees.startRain();
+            }
+        }
+    }
 
     bool checker(float actualAngle, float requiredAngle) {
         return Mathf.Min((actualAngle - requiredAngle + 360) % 360, (requiredAngle - actualAngle + 360) % 360) <= leeway;
