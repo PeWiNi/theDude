@@ -27,7 +27,7 @@ public class environmentChanger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-
+		Debug.Log ("raindrops : " + noDrops + " flames: " + noFlames); 
 	}
 
 	public IEnumerator fillTheScreen(){

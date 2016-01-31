@@ -13,10 +13,10 @@ public class lavaWaves : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (gameObject.transform.position.x <= -25f)
-			gameObject.transform.position = new Vector3 (25f, -0.55f, gameObject.transform.position.z);
-		else	gameObject.transform.position = new Vector3 (gameObject.transform.position.x-Random.Range(0.0001f,0.005f), 
-			-0.55f, gameObject.transform.position.z);
+		if (transform.position.x <= -25f)
+			transform.position = new Vector3 (25f, transform.position.y,1f);
+		else	transform.position = new Vector3 (transform.position.x-Random.Range(0.0001f,0.005f), 
+			transform.position.y, 1f);
 
 	}
 

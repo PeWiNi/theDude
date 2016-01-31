@@ -10,12 +10,14 @@ public class masterWave : MonoBehaviour {
 	GameObject panel;
 	Image img;
 	public environmentChanger env;
+	//waves[] wvs;
 
 	// Use this for initialization
 	void Awake()
 	{
 		lavaWaves = GameObject.Find("lavaWaves");
 		env = GameObject.Find ("envChanger").GetComponent<environmentChanger> ();
+		//wvs = gameObject.GetComponents<waves> ();
 	}
 
 	void Start () 
@@ -29,7 +31,8 @@ public class masterWave : MonoBehaviour {
 
 
 		if(env.raining) 
-		{
+		{	
+			//shrinking the lava wave
 			if (lavaWaves.transform.localScale.y > 0.01f )
 			{	lavaWaves.transform.localScale = new Vector3 (lavaWaves.transform.localScale.x, 
 				lavaWaves.transform.localScale.y-environmentChanger.noDrops / 1000000f,
@@ -37,27 +40,29 @@ public class masterWave : MonoBehaviour {
 			}
 			else
 			{
+				//enlarge the water wave
 				enlarge = new Vector3 (transform.localScale.x,
 					transform.localScale.y + environmentChanger.noDrops / 1000000f,
 					transform.localScale.z);
 				gameObject.transform.localScale = enlarge;
 				Vector3 newPos = new Vector3 (gameObject.transform.position.x, 
-					                 //gameObject.transform.position.y + environmentChanger.noDrops / 1000000f,
-					-1.55f,
-					                 gameObject.transform.position.z);
+					                 gameObject.transform.position.y ,
+				//	-1.55f, 
+					gameObject.transform.position.z);
 				gameObject.transform.position = newPos;
 			}
 		}
-		else
+	else
+			//shrink the water wave
 		if (environmentChanger.noFlames >= 0 && transform.localScale.y > 0.01f) 
 		{
-			shrink = new Vector3 (transform.localScale.x,
+		shrink = new Vector3 (transform.localScale.x,
 				transform.localScale.y - environmentChanger.noFlames / 1000000f,
 				transform.localScale.z);
 			gameObject.transform.localScale = shrink;
 		Vector3 newPos = new Vector3 (gameObject.transform.position.x, 
-				//gameObject.transform.position.y - environmentChanger.noFlames / 1000000f,
-					-1.55f,
+				gameObject.transform.position.y, //- environmentChanger.noFlames / 100000f,
+				//	-1.55f,
 				gameObject.transform.position.z);
 			gameObject.transform.position = newPos;
 		}
