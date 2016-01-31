@@ -14,9 +14,9 @@ public class lavaWaves : MonoBehaviour {
 	void Update () {
 
 		if (gameObject.transform.position.x <= -25f)
-			gameObject.transform.position = new Vector3 (25f, gameObject.transform.position.y, gameObject.transform.position.z);
+			gameObject.transform.position = new Vector3 (25f, -0.55f, gameObject.transform.position.z);
 		else	gameObject.transform.position = new Vector3 (gameObject.transform.position.x-Random.Range(0.0001f,0.005f), 
-			gameObject.transform.position.y, gameObject.transform.position.z);
+			-0.55f, gameObject.transform.position.z);
 
 	}
 

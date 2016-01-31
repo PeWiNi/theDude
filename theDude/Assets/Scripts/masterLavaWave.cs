@@ -20,8 +20,9 @@ public class masterLavaWave : MonoBehaviour {
 					transform.localScale.y + environmentChanger.noFlames / 800000f,
 					transform.localScale.z);
 				gameObject.transform.localScale = enlarge;
-				Vector3 newPos = new Vector3 (gameObject.transform.position.x, 
-					                 gameObject.transform.position.y + environmentChanger.noFlames / 800000f,
+			Vector3 newPos = new Vector3 (gameObject.transform.position.x, 
+					                // gameObject.transform.position.y + environmentChanger.noFlames / 1600000f,
+									-1.55f,
 					                 gameObject.transform.position.z);
 				gameObject.transform.position = newPos;
 			}
@@ -31,9 +32,10 @@ public class masterLavaWave : MonoBehaviour {
 					transform.localScale.y - environmentChanger.noDrops / 1000000f,
 					transform.localScale.z);
 				gameObject.transform.localScale = shrink;
-				Vector3 newPos = new Vector3 (gameObject.transform.position.x, 
-					                gameObject.transform.position.y - environmentChanger.noDrops / 1000000f,
-					                gameObject.transform.position.z);
+			Vector3 newPos = new Vector3 (gameObject.transform.position.x, 
+					                //gameObject.transform.position.y - environmentChanger.noDrops / 1000000f,
+								-1.55f,
+									gameObject.transform.position.z);
 				gameObject.transform.position = newPos;
 			}
 		}

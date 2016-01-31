@@ -42,6 +42,6 @@ public class CloudScript : MonoBehaviour {
 
     public void KillMe(float delay = 0.0f) {
         if(isStopped)
-            Destroy(this.gameObject, delay + Random.Range(0f,2f));
+            Destroy(this.gameObject, delay + Random.Range(0.2f,1.5f));
     }
 }
