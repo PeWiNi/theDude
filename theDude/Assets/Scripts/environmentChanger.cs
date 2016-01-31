@@ -25,13 +25,16 @@ public class environmentChanger : MonoBehaviour
     {
         time = Time.realtimeSinceStartup;
         StartCoroutine(addWave(10f, true));
+
+        noFlames = 0;
+        noDrops = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        //Debug.Log("raindrops : " + noDrops + " flames: " + noFlames);
+        Debug.Log("raindrops : " + noDrops + " flames: " + noFlames);
     }
 
     public IEnumerator fillTheScreen()
