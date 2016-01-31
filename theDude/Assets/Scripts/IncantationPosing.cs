@@ -186,7 +186,7 @@ public class IncantationPosing : MonoBehaviour
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 315);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) Debug.Log("A1 successful");
+        //if (isRight) Debug.Log("A1 successful");
         return isRight;
     }
 
@@ -232,21 +232,17 @@ public class IncantationPosing : MonoBehaviour
     bool incA2()
     {
         bool isRight = true;
-        while (isRight)
-        {
-            isRight = isRight && checker(character.RightArm.rotation.eulerAngles.z, 90);
-            isRight = isRight && checker(character.RightArm.GetChild(0).transform.localRotation.eulerAngles.z, 270);
-            isRight = isRight && checker(character.LeftArm.rotation.eulerAngles.z, 270);
-            isRight = isRight && checker(character.LeftArm.GetChild(0).transform.localRotation.eulerAngles.z, 270);
+        isRight = isRight && checker(character.RightArm.rotation.eulerAngles.z, 90);
+        isRight = isRight && checker(character.RightArm.GetChild(0).transform.localRotation.eulerAngles.z, 270);
+        isRight = isRight && checker(character.LeftArm.rotation.eulerAngles.z, 270);
+        isRight = isRight && checker(character.LeftArm.GetChild(0).transform.localRotation.eulerAngles.z, 270);
 
-            isRight = isRight && checker(character.RightLeg.rotation.eulerAngles.z, 0);
-            isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-            isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 315);
-            isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 45);
-            if (isRight) Debug.Log("A2 successful");
-            return isRight;
-        }
-        return false;
+        isRight = isRight && checker(character.RightLeg.rotation.eulerAngles.z, 0);
+        isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
+        isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 315);
+        isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 45);
+        //if (isRight) Debug.Log("A2 successful");
+        return isRight;
     }
 
     public void setA2()
@@ -274,7 +270,7 @@ public class IncantationPosing : MonoBehaviour
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) Debug.Log("B1 successful");
+        //if (isRight) Debug.Log("B1 successful");
         return isRight;
     }
 
@@ -303,7 +299,7 @@ public class IncantationPosing : MonoBehaviour
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) Debug.Log("B2 successful");
+        //if (isRight) Debug.Log("B2 successful");
         return isRight;
     }
 
@@ -332,7 +328,7 @@ public class IncantationPosing : MonoBehaviour
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 270);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 270);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 90);
-        if (isRight) Debug.Log("C1 successful");
+        //if (isRight) Debug.Log("C1 successful");
         return isRight;
     }
 
@@ -361,7 +357,7 @@ public class IncantationPosing : MonoBehaviour
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 315);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 315);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 45);
-        if (isRight) Debug.Log("C2 successful");
+        //if (isRight) Debug.Log("C2 successful");
         return isRight;
     }
 
@@ -390,7 +386,7 @@ public class IncantationPosing : MonoBehaviour
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 270);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) Debug.Log("D1 successful");
+        //if (isRight) Debug.Log("D1 successful");
         return isRight;
     }
 
@@ -419,7 +415,7 @@ public class IncantationPosing : MonoBehaviour
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) Debug.Log("D2 successful");
+        //if (isRight) Debug.Log("D2 successful");
         return isRight;
     }
 

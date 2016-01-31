@@ -31,7 +31,7 @@ public class environmentChanger : MonoBehaviour
     void Update()
     {
 
-        Debug.Log("raindrops : " + noDrops + " flames: " + noFlames);
+        //Debug.Log("raindrops : " + noDrops + " flames: " + noFlames);
     }
 
     public IEnumerator fillTheScreen()
