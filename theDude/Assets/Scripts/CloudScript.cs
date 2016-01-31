@@ -3,8 +3,9 @@ using System.Collections;
 
 public class CloudScript : MonoBehaviour {
     float deAcceleration = -0.1f;
-    public float timeSteps = 0.1f;
+    public float timeSteps = 0.05f;
     float timer = 0;
+    float startTime = Time.time;
     environmentChanger env;
     public bool isStopped = false;
 
@@ -19,7 +20,7 @@ public class CloudScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Time.time > timer) {
+        if (Time.time - startTime > timer) {
             var cloudFly = GetComponent<Rigidbody>();
             if (cloudFly.velocity.x > 0)
                 cloudFly.velocity += new Vector3(1, 0, 0) * deAcceleration;

@@ -55,7 +55,7 @@ public class CloudSpawn : MonoBehaviour {
 			int rngType = Random.Range (0, 2);
 			int rngSide = Random.Range (0, 2);
 			float rngDistance = Random.Range (0, 3f);
-			float rngSpeed = Random.Range (5f, 10f);
+			float rngSpeed = Random.Range (3f, 8f);
 
 			GameObject cloud = (GameObject)Instantiate (rngType == 0 ? cloud1 : cloud2, 
 				                   new Vector3 (rngSide == 0 ? -horizontalBounds : horizontalBounds, cloudLayer + rngDistance, 0), Quaternion.identity);
