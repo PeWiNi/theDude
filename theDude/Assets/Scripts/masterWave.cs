@@ -56,7 +56,7 @@ public class masterWave : MonoBehaviour
             {
                 //enlarge the water wave
                 enlarge = new Vector3(transform.localScale.x,
-                    transform.localScale.y + environmentChanger.noDrops / 1000000f,
+                    transform.localScale.y + environmentChanger.noDrops / 10000000f,
                     transform.localScale.z);
                 gameObject.transform.localScale = enlarge;
                 Vector3 newPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
