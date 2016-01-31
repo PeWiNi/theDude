@@ -2,10 +2,14 @@
 using System.Collections;
 
 public class Rotate : MonoBehaviour {
-    Transform RightArm; // IJKL
-    Transform LeftArm; // WASD
-    Transform RightLeg; // IJKL
-    Transform LeftLeg; // WASD
+    [HideInInspector]
+    public Transform RightArm; // IJKL
+    [HideInInspector]
+    public Transform LeftArm; // WASD
+    [HideInInspector]
+    public Transform RightLeg; // IJKL
+    [HideInInspector]
+    public Transform LeftLeg; // WASD
     float doomTimer;
     float nextActionTime = 10;
     float time;
