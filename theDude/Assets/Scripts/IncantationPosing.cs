@@ -13,15 +13,6 @@ public class IncantationPosing : MonoBehaviour {
         character = GameObject.Find("hero").GetComponentInChildren<Rotate>();
         canvas = transform.GetComponent<Canvas>();
         incantiees = GameObject.Find("envChanger").GetComponentInChildren<incantations>();
-
-        print("  0,   0 : true  | " + checker(0, 0));
-        print("359,   0 : true  | " + checker(359, 0));
-        print("359,  15 : true  | " + checker(359, 15));
-        print("  0,  25 : false | " + checker(0, 25));
-        print("359,  25 : false | " + checker(359, 25));
-        print("  0, 350 : true  | " + checker(0, 350));
-        print(" 30,  45 : true  | " + checker(30, 45));
-        print("330,   5 : false | " + checker(330, 5));
     }
 	enum incant {
         A1, A2, B1, B2, C1, C2, D1, D2, none
@@ -30,7 +21,8 @@ public class IncantationPosing : MonoBehaviour {
 	void Update () {
         //if (current == incant.A1)
         //    setA1(true);
-        //if (!Input.anyKey) {
+        if (!Input.anyKey && Input.GetAxis("Horizontal") == 0 && Input.GetAxis("HorizontalR") == 0 && 
+            Input.GetAxis("Vertical") == 0 && Input.GetAxis("VerticalR") == 0 && !GameObject.Find("Panel").GetComponent<Image>().enabled) {
             if (incA1()) {
                 canvas.GetComponentsInChildren<Button>()[2].Select();
                 current = incant.A1;
@@ -39,6 +31,7 @@ public class IncantationPosing : MonoBehaviour {
                 canvas.GetComponentsInChildren<Button>()[3].Select();
                 if(current == incant.A1)
                     incantiees.startFire();
+                current = incant.A2;
             }
             if (incB1()) {
                 canvas.GetComponentsInChildren<Button>()[0].Select();
@@ -48,6 +41,7 @@ public class IncantationPosing : MonoBehaviour {
                 canvas.GetComponentsInChildren<Button>()[1].Select();
                 if (current == incant.B1)
                     incantiees.startRain();
+                current = incant.B2;
             }
             if (incC1()) {
                 canvas.GetComponentsInChildren<Button>()[4].Select();
@@ -57,6 +51,7 @@ public class IncantationPosing : MonoBehaviour {
                 canvas.GetComponentsInChildren<Button>()[5].Select();
                 if (current == incant.C1)
                     incantiees.startRain();
+                current = incant.C2;
             }
             if (incD1()) {
                 canvas.GetComponentsInChildren<Button>()[6].Select();
@@ -66,8 +61,9 @@ public class IncantationPosing : MonoBehaviour {
                 canvas.GetComponentsInChildren<Button>()[7].Select();
                 if (current == incant.D1)
                     incantiees.startFire();
+                current = incant.D2;
             }
-        //}
+        }
     }
 
     bool checker(float actualAngle, float requiredAngle) {
@@ -85,7 +81,7 @@ public class IncantationPosing : MonoBehaviour {
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 315);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 0);
         isRight = isRight &&  checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if(isRight) print("A1 successful");
+        if(isRight) Debug.Log("A1 successful");
         return isRight;
     }
 
@@ -138,7 +134,7 @@ public class IncantationPosing : MonoBehaviour {
             isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
             isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 315);
             isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 45);
-            if (isRight) print("A2 successful");
+            if (isRight) Debug.Log("A2 successful");
             return isRight;
         }
         return false;
@@ -167,7 +163,7 @@ public class IncantationPosing : MonoBehaviour {
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) print("B1 successful");
+        if (isRight) Debug.Log("B1 successful");
         return isRight;
     }
 
@@ -194,7 +190,7 @@ public class IncantationPosing : MonoBehaviour {
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) print("B2 successful");
+        if (isRight) Debug.Log("B2 successful");
         return isRight;
     }
 
@@ -221,7 +217,7 @@ public class IncantationPosing : MonoBehaviour {
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 270);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 270);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 90);
-        if (isRight) print("C1 successful");
+        if (isRight) Debug.Log("C1 successful");
         return isRight;
     }
 
@@ -248,7 +244,7 @@ public class IncantationPosing : MonoBehaviour {
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 315);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 315);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 45);
-        if (isRight) print("C2 successful");
+        if (isRight) Debug.Log("C2 successful");
         return isRight;
     }
 
@@ -275,7 +271,7 @@ public class IncantationPosing : MonoBehaviour {
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 270);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) print("D1 successful");
+        if (isRight) Debug.Log("D1 successful");
         return isRight;
     }
 
@@ -302,7 +298,7 @@ public class IncantationPosing : MonoBehaviour {
         isRight = isRight && checker(character.RightLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.rotation.eulerAngles.z, 0);
         isRight = isRight && checker(character.LeftLeg.GetChild(0).transform.localRotation.eulerAngles.z, 0);
-        if (isRight) print("D2 successful");
+        if (isRight) Debug.Log("D2 successful");
         return isRight;
     }
 
