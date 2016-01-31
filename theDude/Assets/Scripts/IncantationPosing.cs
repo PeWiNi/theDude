@@ -102,26 +102,68 @@ public class IncantationPosing : MonoBehaviour
             }
             if (incC1())
             {
+                if (!camera_NATIVEAMERICAN.GetComponent<AudioSource>().isPlaying)
+                {
+                    camera_KHÖÖMEI.GetComponent<AudioSource>().Stop();
+                    camera_INDIAN.GetComponent<AudioSource>().Stop();
+                    camera_TIBETANMONK.GetComponent<AudioSource>().Stop();
+                    camera_NATIVEAMERICAN.GetComponent<AudioSource>().volume = 0.5f;
+                    camera_NATIVEAMERICAN.GetComponent<AudioSource>().Play();
+                }
+
                 canvas.GetComponentsInChildren<Button>()[4].Select();
                 current = incant.C1;
             }
             if (incC2())
             {
+                if (!camera_NATIVEAMERICAN.GetComponent<AudioSource>().isPlaying)
+                {
+                    camera_KHÖÖMEI.GetComponent<AudioSource>().Stop();
+                    camera_INDIAN.GetComponent<AudioSource>().Stop();
+                    camera_TIBETANMONK.GetComponent<AudioSource>().Stop();
+                    camera_NATIVEAMERICAN.GetComponent<AudioSource>().volume = 0.5f;
+                    camera_NATIVEAMERICAN.GetComponent<AudioSource>().Play();
+                }
+
                 canvas.GetComponentsInChildren<Button>()[5].Select();
                 if (current == incant.C1)
+                {
+                    camera_NATIVEAMERICAN.GetComponent<AudioSource>().volume = 1f;
                     incantiees.startRain();
+                }
                 current = incant.C2;
             }
             if (incD1())
             {
+                if (!camera_TIBETANMONK.GetComponent<AudioSource>().isPlaying)
+                {
+                    camera_KHÖÖMEI.GetComponent<AudioSource>().Stop();
+                    camera_INDIAN.GetComponent<AudioSource>().Stop();
+                    camera_NATIVEAMERICAN.GetComponent<AudioSource>().Stop();
+                    camera_TIBETANMONK.GetComponent<AudioSource>().volume = 0.5f;
+                    camera_TIBETANMONK.GetComponent<AudioSource>().Play();
+                }
+
                 canvas.GetComponentsInChildren<Button>()[6].Select();
                 current = incant.D1;
             }
             if (incD2())
             {
+                if (!camera_TIBETANMONK.GetComponent<AudioSource>().isPlaying)
+                {
+                    camera_KHÖÖMEI.GetComponent<AudioSource>().Stop();
+                    camera_INDIAN.GetComponent<AudioSource>().Stop();
+                    camera_NATIVEAMERICAN.GetComponent<AudioSource>().Stop();
+                    camera_TIBETANMONK.GetComponent<AudioSource>().volume = 0.5f;
+                    camera_TIBETANMONK.GetComponent<AudioSource>().Play();
+                }
+
                 canvas.GetComponentsInChildren<Button>()[7].Select();
                 if (current == incant.D1)
+                {
+                    camera_TIBETANMONK.GetComponent<AudioSource>().volume = 1f;
                     incantiees.startFire();
+                }
                 current = incant.D2;
             }
         }
